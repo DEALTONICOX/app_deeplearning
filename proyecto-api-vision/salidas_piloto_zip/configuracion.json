@@ -1,0 +1,26 @@
+{
+  "forma_entrada": [
+    128,
+    128,
+    3
+  ],
+  "umbral_confianza": 0.8658992805755394,
+  "numero_clases": 9,
+  "epocas": 25,
+  "arquitectura": "mobilenet",
+  "aumento_datos": {
+    "volteo": "horizontal",
+    "rotacion": 0.04,
+    "zoom": 0.1,
+    "traslacion": 0.06,
+    "brillo": 0.15,
+    "contraste": 0.15,
+    "rango": [
+      0.0,
+      1.0
+    ],
+    "solo_entrenamiento": true,
+    "ruido_gaussiano": 0.015
+  },
+  "procedencia_dataset": null
+}

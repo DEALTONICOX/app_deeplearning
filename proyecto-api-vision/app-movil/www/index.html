@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f1115">
+  <title>Reconocimiento Duoc</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main class="app">
+    <header class="cabecera">
+      <div>
+        <h1>Reconocimiento facial</h1>
+        <p class="subtitulo">Duoc UC · Deep Learning</p>
+      </div>
+      <button id="btn-ajustes" class="boton-icono" type="button" aria-label="Ajustes">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <path d="M4 7h9M17 7h3M4 17h3M11 17h9"/>
+          <circle cx="15" cy="7" r="2"/>
+          <circle cx="9" cy="17" r="2"/>
+        </svg>
+      </button>
+    </header>
+
+    <section class="visor" id="visor">
+      <video id="video" playsinline muted autoplay></video>
+      <svg class="guia" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <path fill-rule="evenodd" fill="rgba(8,10,14,.62)"
+              d="M0 0H100V100H0Z M20 50a30 38 0 1 0 60 0a30 38 0 1 0 -60 0Z"/>
+        <ellipse cx="50" cy="50" rx="30" ry="38" fill="none" stroke="#ffb81c"
+                 stroke-width="0.7" stroke-dasharray="2.2 1.6" vector-effect="non-scaling-stroke"/>
+      </svg>
+      <div id="aviso-camara" class="aviso-camara" hidden></div>
+      <div id="contador" class="contador" hidden></div>
+    </section>
+
+    <p id="ayuda" class="ayuda">Coloca tu rostro dentro del óvalo, de frente y con buena luz.</p>
+
+    <div class="acciones">
+      <button id="btn-identificar" class="boton primario" type="button">Identificar</button>
+      <button id="btn-voltear" class="boton secundario" type="button">Cambiar cámara</button>
+    </div>
+    <label id="etiqueta-archivo" class="enlace-archivo" hidden>
+      O elegir una foto del dispositivo
+      <input id="entrada-archivo" type="file" accept="image/*" hidden>
+    </label>
+
+    <section id="resultado" class="resultado" hidden aria-live="polite"></section>
+  </main>
+
+  <dialog id="ajustes" class="hoja">
+    <form method="dialog" id="formulario-ajustes">
+      <h2>Ajustes</h2>
+      <label for="entrada-url">URL de la API</label>
+      <input id="entrada-url" type="url" inputmode="url" autocomplete="off"
+             placeholder="https://mi-api.ejemplo.com">
+      <p id="estado-conexion" class="estado-conexion" role="status"></p>
+      <div class="acciones">
+        <button id="btn-probar" class="boton secundario" type="button">Probar conexión</button>
+        <button id="btn-guardar" class="boton primario" type="submit" value="guardar">Guardar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="config.js"></script>
+  <script src="matriz.js"></script>
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

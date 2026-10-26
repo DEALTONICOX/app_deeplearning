@@ -1,0 +1,151 @@
+:root {
+  --fondo: #0f1115;
+  --superficie: #181b22;
+  --borde: #2a2f3a;
+  --texto: #f2f3f5;
+  --texto-suave: #9aa3b2;
+  --acento: #ffb81c;
+  --acento-texto: #1a1300;
+  --ok: #3ecf8e;
+  --aviso: #ffb81c;
+  --error: #ff6b6b;
+  --radio: 20px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: calc(16px + env(safe-area-inset-top)) 16px calc(24px + env(safe-area-inset-bottom));
+}
+
+.cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+h1 { margin: 0; font-size: 1.35rem; letter-spacing: -0.01em; }
+.subtitulo { margin: 2px 0 0; color: var(--texto-suave); font-size: 0.85rem; }
+
+.boton-icono {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--borde);
+  background: var(--superficie);
+  color: var(--texto);
+  display: grid; place-items: center;
+}
+
+/* Visor cuadrado: lo que se ve es exactamente lo que se recorta y envía */
+.visor {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radio);
+  overflow: hidden;
+  background: #000;
+  border: 1px solid var(--borde);
+}
+.visor video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.visor video.espejo { transform: scaleX(-1); }
+.guia { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+
+.aviso-camara {
+  position: absolute; inset: 0;
+  display: grid; place-items: center;
+  padding: 24px; text-align: center;
+  color: var(--texto); background: rgba(15, 17, 21, 0.92);
+  line-height: 1.4;
+}
+.aviso-camara[hidden], .contador[hidden] { display: none; }
+
+.contador {
+  position: absolute; inset: 0;
+  display: grid; place-items: center;
+  font-size: 4.5rem; font-weight: 700;
+  color: var(--acento); text-shadow: 0 2px 18px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+}
+
+.ayuda { color: var(--texto-suave); text-align: center; font-size: 0.9rem; margin: 12px 4px; }
+
+.acciones { display: flex; gap: 10px; }
+.boton {
+  flex: 1; min-height: 52px;
+  border-radius: 14px; border: 1px solid transparent;
+  font-size: 1rem; font-weight: 600; font-family: inherit;
+}
+.boton.primario { background: var(--acento); color: var(--acento-texto); }
+.boton.secundario { background: var(--superficie); color: var(--texto); border-color: var(--borde); }
+.boton:disabled { opacity: 0.55; }
+.boton:active:not(:disabled) { transform: translateY(1px); }
+
+.enlace-archivo {
+  display: block; text-align: center; margin-top: 14px;
+  color: var(--texto-suave); font-size: 0.9rem; text-decoration: underline;
+}
+.enlace-archivo[hidden] { display: none; }
+
+/* Tarjeta de resultado */
+.resultado {
+  margin-top: 18px; padding: 18px;
+  border-radius: var(--radio);
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-left-width: 5px;
+}
+.resultado[hidden] { display: none; }
+.resultado.ok { border-left-color: var(--ok); }
+.resultado.no { border-left-color: var(--aviso); }
+.resultado.error { border-left-color: var(--error); }
+.resultado .etiqueta { color: var(--texto-suave); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; }
+.resultado .nombre { font-size: 1.6rem; font-weight: 700; margin: 4px 0 10px; letter-spacing: -0.01em; }
+.resultado .mensaje { color: var(--texto-suave); line-height: 1.45; margin: 0; }
+
+.barra { height: 8px; border-radius: 99px; background: var(--borde); overflow: hidden; margin: 10px 0 6px; }
+.barra > span { display: block; height: 100%; background: var(--ok); }
+.resultado.no .barra > span { background: var(--aviso); }
+.confianza { font-size: 0.85rem; color: var(--texto-suave); }
+
+details { margin-top: 12px; color: var(--texto-suave); font-size: 0.85rem; }
+summary { cursor: pointer; }
+details ul { margin: 8px 0 0; padding-left: 18px; line-height: 1.6; }
+
+/* Hoja de ajustes */
+dialog.hoja {
+  width: min(92vw, 440px);
+  background: var(--superficie); color: var(--texto);
+  border: 1px solid var(--borde); border-radius: var(--radio);
+  padding: 20px;
+}
+dialog.hoja::backdrop { background: rgba(0, 0, 0, 0.6); }
+dialog.hoja h2 { margin: 0 0 14px; font-size: 1.15rem; }
+dialog.hoja label { display: block; font-size: 0.85rem; color: var(--texto-suave); margin-bottom: 6px; }
+dialog.hoja input {
+  width: 100%; min-height: 48px; padding: 0 12px;
+  border-radius: 12px; border: 1px solid var(--borde);
+  background: var(--fondo); color: var(--texto); font-size: 1rem;
+}
+.estado-conexion { min-height: 1.4em; font-size: 0.85rem; margin: 10px 0 14px; color: var(--texto-suave); }
+.estado-conexion.ok { color: var(--ok); }
+.estado-conexion.error { color: var(--error); }
+
+.girando::after {
+  content: ""; display: inline-block; width: 1em; height: 1em; margin-left: 0.6em;
+  vertical-align: -0.15em; border: 2px solid currentColor; border-right-color: transparent;
+  border-radius: 50%; animation: giro 0.8s linear infinite;
+}
+@keyframes giro { to { transform: rotate(360deg); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .girando::after { animation-duration: 2s; }
+}

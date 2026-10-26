@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Reconocimiento Duoc</string>
+    <string name="title_activity_main">Reconocimiento Duoc</string>
+    <string name="package_name">cl.duoc.reconocimiento</string>
+    <string name="custom_url_scheme">cl.duoc.reconocimiento</string>
+</resources>

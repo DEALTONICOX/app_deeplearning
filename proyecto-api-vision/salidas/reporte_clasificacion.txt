@@ -1,0 +1,15 @@
+                    precision    recall  f1-score   support
+
+    Nicolas Cuevas       0.44      0.40      0.42        10
+   Matias Figueroa       0.67      0.80      0.73        10
+ Luciano Alcantara       0.50      0.40      0.44        10
+   Javier Montupil       0.71      0.50      0.59        10
+  Gustavo Espinoza       1.00      0.90      0.95        10
+    Fabian Verasay       0.78      0.70      0.74        10
+Francisco Quintana       0.71      1.00      0.83        10
+    Carlos Vasquez       0.50      0.60      0.55        10
+    Benjamin Palma       0.70      0.70      0.70        10
+
+          accuracy                           0.67        90
+         macro avg       0.67      0.67      0.66        90
+      weighted avg       0.67      0.67      0.66        90

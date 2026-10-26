@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+httpx
+tensorflow-cpu==2.21.0
+numpy
+pillow
+opencv-python-headless==4.11.0.86
+scikit-learn
+pandas
+matplotlib

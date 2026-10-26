@@ -1,0 +1,35 @@
+{
+  "motor": "sface",
+  "numero_clases": 9,
+  "forma_entrada": [
+    128,
+    128,
+    3
+  ],
+  "umbral_confianza": 0.5094545454545454,
+  "margen_minimo": 0.15,
+  "falsa_aceptacion_calibracion": 0.0,
+  "conocidos_correctos_aceptados_calibracion": 0.9885057471264368,
+  "procedencia_dataset": {
+    "rama": "integracion",
+    "commit": "bf2fb2bfd336029eaa2bb1e5eccf61f70fdb5aaf",
+    "metadatos_modificados": false,
+    "estado_metadatos": "",
+    "csv_sha256": "231e98de893e31f1daa476065fbbe1acc7757bd727363af0531960ad812a44e8",
+    "puntero_dvc": "outs:\n- md5: 2d8888f63e6d3a481a73cf5cfe8f43ce.dir\n  size: 94262690\n  nfiles: 300\n  hash: md5\n  path: images\n"
+  },
+  "dataset_parcial": true,
+  "aumento_datos": {
+    "variantes_por_original": 8,
+    "espejo_en_extraccion": true,
+    "transformaciones": [
+      "gamma",
+      "contraste",
+      "desenfoque",
+      "jpeg",
+      "rotacion"
+    ],
+    "agrupadas_por_original": true
+  },
+  "tipo_puntuacion": "similitud_coseno"
+}

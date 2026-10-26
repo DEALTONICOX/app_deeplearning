@@ -1,0 +1,316 @@
+{
+  "imagenes": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images",
+  "csv": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\sujetos.csv",
+  "errores": [
+    "No existe ..\\proyecto-dataset-vision\\data\\images. Ejecuta dvc pull en integracion.",
+    "Falta carpeta: bg_01 (Benjamin Galvez).",
+    "bg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: bp_01 (Benjamin Palma).",
+    "bp_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: cv_01 (Carlos Vasquez).",
+    "cv_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: fq_01 (Francisco Quintana).",
+    "fq_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: fv_01 (Fabian Verasay).",
+    "fv_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ge_01 (Gustavo Espinoza).",
+    "ge_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: id_01 (Israel Diaz).",
+    "id_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: jm_01 (Javier Montupil).",
+    "jm_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: la_01 (Luciano Alcantara).",
+    "la_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mf_01 (Matias Figueroa).",
+    "mf_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mr_01 (Maximiliano Ramos).",
+    "mr_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: nc_01 (Nicolas Cuevas).",
+    "nc_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: sf_01 (Samuel Fuenzalida).",
+    "sf_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ag_01 (Aracely Garrido).",
+    "ag_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ba_01 (Bladimir Aguilera).",
+    "ba_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ja_01 (Julio Alcantara).",
+    "ja_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: fg_01 (Francisco Gutierrez).",
+    "fg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: sg_01 (Sergio Garrido).",
+    "sg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ih_01 (Irriana Herrera).",
+    "ih_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mg_01 (Maximiliano Garrido).",
+    "mg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: jg_01 (Joselo Garrido).",
+    "jg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: tg_01 (Tomas Garrido).",
+    "tg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: bf_01 (Benjamin Flores).",
+    "bf_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mf_02 (Michelle Ferraro).",
+    "mf_02: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: vm_01 (Victor Medina).",
+    "vm_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mg_02 (Manuel Garrido).",
+    "mg_02: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mc_01 (Moises Castillo).",
+    "mc_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: dg_01 (Daira Guerra).",
+    "dg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mv_01 (Marcela Vera).",
+    "mv_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: gr_01 (Giselle Rojas).",
+    "gr_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: me_01 (Matias Escalante).",
+    "me_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ee_01 (Elias Esveile).",
+    "ee_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: zh_01 (Zoe Herrera).",
+    "zh_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: yf_01 (Yamila Fernandez).",
+    "yf_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: zz_01 (Zaira Zuviria).",
+    "zz_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ca_01 (Camila Alves).",
+    "ca_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: er_01 (Eliza Ramirez).",
+    "er_01: 0 fotos únicas; se necesitan al menos 5."
+  ],
+  "avisos": [],
+  "personas": [
+    {
+      "id_carpeta": "bg_01",
+      "nombre_normalizado": "benjamin_galvez",
+      "nombre_original": "Benjamin Galvez",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "bp_01",
+      "nombre_normalizado": "benjamin_palma",
+      "nombre_original": "Benjamin Palma",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "cv_01",
+      "nombre_normalizado": "carlos_vasquez",
+      "nombre_original": "Carlos Vasquez",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "fq_01",
+      "nombre_normalizado": "francisco_quintana",
+      "nombre_original": "Francisco Quintana",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "fv_01",
+      "nombre_normalizado": "fabian_verasay",
+      "nombre_original": "Fabian Verasay",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ge_01",
+      "nombre_normalizado": "gustavo_espinoza",
+      "nombre_original": "Gustavo Espinoza",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "id_01",
+      "nombre_normalizado": "israel_diaz",
+      "nombre_original": "Israel Diaz",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "jm_01",
+      "nombre_normalizado": "javier_montupil",
+      "nombre_original": "Javier Montupil",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "la_01",
+      "nombre_normalizado": "luciano_alcantara",
+      "nombre_original": "Luciano Alcantara",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mf_01",
+      "nombre_normalizado": "matias_figueroa",
+      "nombre_original": "Matias Figueroa",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mr_01",
+      "nombre_normalizado": "maximiliano_ramos",
+      "nombre_original": "Maximiliano Ramos",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "nc_01",
+      "nombre_normalizado": "nicolas_cuevas",
+      "nombre_original": "Nicolas Cuevas",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "sf_01",
+      "nombre_normalizado": "samuel_fuenzalida",
+      "nombre_original": "Samuel Fuenzalida",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ag_01",
+      "nombre_normalizado": "aracely_garrido",
+      "nombre_original": "Aracely Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ba_01",
+      "nombre_normalizado": "bladimir_aguilera",
+      "nombre_original": "Bladimir Aguilera",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ja_01",
+      "nombre_normalizado": "julio_alcantara",
+      "nombre_original": "Julio Alcantara",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "fg_01",
+      "nombre_normalizado": "francisco_gutierrez",
+      "nombre_original": "Francisco Gutierrez",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "sg_01",
+      "nombre_normalizado": "sergio_garrido",
+      "nombre_original": "Sergio Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ih_01",
+      "nombre_normalizado": "irriana_herrera",
+      "nombre_original": "Irriana Herrera",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mg_01",
+      "nombre_normalizado": "maximiliano_garrido",
+      "nombre_original": "Maximiliano Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "jg_01",
+      "nombre_normalizado": "joselo_garrido",
+      "nombre_original": "Joselo Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "tg_01",
+      "nombre_normalizado": "tomas_garrido",
+      "nombre_original": "Tomas Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "bf_01",
+      "nombre_normalizado": "benjamin_flores",
+      "nombre_original": "Benjamin Flores",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mf_02",
+      "nombre_normalizado": "michelle_ferraro",
+      "nombre_original": "Michelle Ferraro",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "vm_01",
+      "nombre_normalizado": "victor_medina",
+      "nombre_original": "Victor Medina",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mg_02",
+      "nombre_normalizado": "manuel_garrido",
+      "nombre_original": "Manuel Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mc_01",
+      "nombre_normalizado": "moises_castillo",
+      "nombre_original": "Moises Castillo",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "dg_01",
+      "nombre_normalizado": "daira_guerra",
+      "nombre_original": "Daira Guerra",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mv_01",
+      "nombre_normalizado": "marcela_vera",
+      "nombre_original": "Marcela Vera",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "gr_01",
+      "nombre_normalizado": "giselle_rojas",
+      "nombre_original": "Giselle Rojas",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "me_01",
+      "nombre_normalizado": "matias_escalante",
+      "nombre_original": "Matias Escalante",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ee_01",
+      "nombre_normalizado": "elias_esveile",
+      "nombre_original": "Elias Esveile",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "zh_01",
+      "nombre_normalizado": "zoe_herrera",
+      "nombre_original": "Zoe Herrera",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "yf_01",
+      "nombre_normalizado": "yamila_fernandez",
+      "nombre_original": "Yamila Fernandez",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "zz_01",
+      "nombre_normalizado": "zaira_zuviria",
+      "nombre_original": "Zaira Zuviria",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ca_01",
+      "nombre_normalizado": "camila_alves",
+      "nombre_original": "Camila Alves",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "er_01",
+      "nombre_normalizado": "eliza_ramirez",
+      "nombre_original": "Eliza Ramirez",
+      "imagenes_unicas": 0
+    }
+  ],
+  "archivos": [],
+  "duplicados": [],
+  "total_personas": 37,
+  "total_imagenes_unicas": 0,
+  "procedencia": {
+    "rama": "integracion",
+    "commit": "bf2fb2bfd336029eaa2bb1e5eccf61f70fdb5aaf",
+    "csv_sha256": "231e98de893e31f1daa476065fbbe1acc7757bd727363af0531960ad812a44e8",
+    "puntero_dvc": "outs:\n- md5: 2d8888f63e6d3a481a73cf5cfe8f43ce.dir\n  size: 94262690\n  nfiles: 300\n  hash: md5\n  path: images\n"
+  }
+}

@@ -1,0 +1,44 @@
+# Dependencias y entornos: se reinstalan con requirements y npm ci.
+venv/
+.venv/
+env/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.gradle/
+build/
+.idea/
+.aws/
+.codex/
+.agents/
+
+# Credenciales y configuración privada del equipo.
+.env
+.env.*
+!.env.example
+config.local
+credentials.json
+client_secrets.json
+gdrive-user.json
+google-services.json
+local.properties
+*.pem
+*.key
+*.jks
+*.keystore
+**/.dvc/tmp/
+**/.dvc/cache/
+
+# Respaldos duplicados, procesos y videos de prueba generados.
+respaldos/
+registros_api_mejorada/
+*.zip
+*.log
+*.pid
+*.mjpeg
+*.apk
+*.aab
+.DS_Store
+Thumbs.db
+Desktop.ini

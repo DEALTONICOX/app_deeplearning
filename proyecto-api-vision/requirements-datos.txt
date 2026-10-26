@@ -1,0 +1,6 @@
+# Compatibilidad comprobada del conector Drive con DVC; instalar junto a requirements.txt.
+dvc==3.67.1
+dvc-gdrive==3.0.1
+pyOpenSSL==24.2.1
+cryptography>=41.0.5,<44
+asyncssh==2.20.0

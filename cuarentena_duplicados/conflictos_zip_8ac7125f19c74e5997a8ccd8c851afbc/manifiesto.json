@@ -1,0 +1,31 @@
+{
+  "motivo": "Misma imagen con etiquetas contradictorias: se excluyen ambas sin elegir identidad.",
+  "procedencia": {
+    "rama": "integracion",
+    "commit": "bf2fb2bfd336029eaa2bb1e5eccf61f70fdb5aaf",
+    "metadatos_modificados": false,
+    "estado_metadatos": "",
+    "csv_sha256": "231e98de893e31f1daa476065fbbe1acc7757bd727363af0531960ad812a44e8",
+    "puntero_dvc": "outs:\n- md5: 2d8888f63e6d3a481a73cf5cfe8f43ce.dir\n  size: 94262690\n  nfiles: 300\n  hash: md5\n  path: images\n"
+  },
+  "conflictos": [
+    {
+      "archivo": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_04.jpg",
+      "original": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_10.jpg"
+    }
+  ],
+  "movimientos": [
+    {
+      "origen": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_10.jpg",
+      "cuarentena": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\cuarentena_duplicados\\conflictos_zip_8ac7125f19c74e5997a8ccd8c851afbc\\la_01\\la_01_10.jpg",
+      "sha256_pixeles": "3f3c3ef6a38105f7f6c91c66e8b8e2bcea1ac7450485970ff66ba4f8094f9306",
+      "movido": true
+    },
+    {
+      "origen": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_04.jpg",
+      "cuarentena": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\cuarentena_duplicados\\conflictos_zip_8ac7125f19c74e5997a8ccd8c851afbc\\mf_01\\mf_01_04.jpg",
+      "sha256_pixeles": "3f3c3ef6a38105f7f6c91c66e8b8e2bcea1ac7450485970ff66ba4f8094f9306",
+      "movido": true
+    }
+  ]
+}

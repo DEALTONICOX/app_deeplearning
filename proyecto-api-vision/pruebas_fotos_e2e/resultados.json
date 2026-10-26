@@ -1,0 +1,85 @@
+[
+  {
+    "escenario": "camara",
+    "fotogramas": 3,
+    "respuesta": {
+      "rostro_detectado": true,
+      "identificado": true,
+      "nombre": "Gustavo Espinoza",
+      "confianza": 0.8595,
+      "umbral": 0.5095,
+      "mensaje": "Persona identificada: Gustavo Espinoza",
+      "candidatos": [
+        {
+          "nombre": "Gustavo Espinoza",
+          "probabilidad": 0.8595
+        },
+        {
+          "nombre": "Nicolas Cuevas",
+          "probabilidad": 0.2272
+        },
+        {
+          "nombre": "Fabian Verasay",
+          "probabilidad": 0.2147
+        }
+      ],
+      "fotogramas_analizados": 3,
+      "fotogramas_con_rostro": 3,
+      "tipo_puntuacion": "similitud_coseno",
+      "margen": 0.6323,
+      "margen_minimo": 0.15,
+      "consenso": true
+    }
+  },
+  {
+    "escenario": "sin_rostro",
+    "fotogramas": 3,
+    "respuesta": {
+      "rostro_detectado": false,
+      "identificado": false,
+      "nombre": null,
+      "confianza": 0.0,
+      "umbral": 0.5095,
+      "mensaje": "No se detectó un rostro frontal suficiente para identificar. Centra el rostro y mejora la iluminación.",
+      "candidatos": [],
+      "fotogramas_analizados": 3,
+      "fotogramas_con_rostro": 0,
+      "tipo_puntuacion": "probabilidad",
+      "margen": 0.0,
+      "margen_minimo": 0.0,
+      "consenso": true
+    }
+  },
+  {
+    "escenario": "archivo",
+    "fotogramas": 1,
+    "respuesta": {
+      "rostro_detectado": true,
+      "identificado": true,
+      "nombre": "Gustavo Espinoza",
+      "confianza": 0.8853,
+      "umbral": 0.5095,
+      "mensaje": "Persona identificada: Gustavo Espinoza",
+      "candidatos": [
+        {
+          "nombre": "Gustavo Espinoza",
+          "probabilidad": 0.8853
+        },
+        {
+          "nombre": "Nicolas Cuevas",
+          "probabilidad": 0.2483
+        },
+        {
+          "nombre": "Fabian Verasay",
+          "probabilidad": 0.2009
+        }
+      ],
+      "fotogramas_analizados": 1,
+      "fotogramas_con_rostro": 1,
+      "tipo_puntuacion": "similitud_coseno",
+      "margen": 0.637,
+      "margen_minimo": 0.15,
+      "consenso": true
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "appId": "cl.duoc.reconocimiento",
+  "appName": "Reconocimiento Duoc",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

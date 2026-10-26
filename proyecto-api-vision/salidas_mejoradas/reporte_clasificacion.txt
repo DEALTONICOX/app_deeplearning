@@ -1,0 +1,15 @@
+                    precision    recall  f1-score   support
+
+    Benjamin Palma       1.00      1.00      1.00        10
+    Carlos Vasquez       1.00      1.00      1.00        10
+Francisco Quintana       1.00      1.00      1.00        10
+    Fabian Verasay       1.00      1.00      1.00        10
+  Gustavo Espinoza       1.00      1.00      1.00        10
+   Javier Montupil       1.00      1.00      1.00        10
+ Luciano Alcantara       1.00      0.89      0.94         9
+   Matias Figueroa       1.00      1.00      1.00         9
+    Nicolas Cuevas       1.00      1.00      1.00        10
+
+         micro avg       1.00      0.99      0.99        88
+         macro avg       1.00      0.99      0.99        88
+      weighted avg       1.00      0.99      0.99        88

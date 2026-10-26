@@ -1,0 +1,2283 @@
+{
+  "dataset": "88 fotos limpias de 9 personas; conjunto completo pendiente",
+  "archivos": [
+    {
+      "ruta": "proyecto-api-vision/Dockerfile",
+      "bytes": 758,
+      "sha256": "07f9ed1113ce11bea7fbfdfef989712d0b8cbe58e4b9b487aed1045902627887"
+    },
+    {
+      "ruta": "proyecto-api-vision/README.md",
+      "bytes": 7847,
+      "sha256": "37dab937ade73822cbdd464bed10e41712e25e816dc65f4f4186138dea9f4570"
+    },
+    {
+      "ruta": "proyecto-api-vision/app.py",
+      "bytes": 13072,
+      "sha256": "a6e08b77d40f273abdcd380ed00f7c60cb8fb04fbcb786f498592e59c5c3c587"
+    },
+    {
+      "ruta": "proyecto-api-vision/auditar_dataset.py",
+      "bytes": 6309,
+      "sha256": "1d4d694be9213744aa67287c6ab7bdf625f44131a52434c04fb86f9ae0f5547f"
+    },
+    {
+      "ruta": "proyecto-api-vision/auditoria_integracion.json",
+      "bytes": 10784,
+      "sha256": "1091a3f764dbe13c4c0dcc7c65e419861696753238e2f125c8a3fc265311fb92"
+    },
+    {
+      "ruta": "proyecto-api-vision/aumento_datos.py",
+      "bytes": 1021,
+      "sha256": "50d636f9983f5620e17dd72971316354fdb0ae7a6d2784d4d3f27249f8a63c09"
+    },
+    {
+      "ruta": "proyecto-api-vision/autenticar_drive.py",
+      "bytes": 4764,
+      "sha256": "c86c00f5be84b5a8ff7dd9fe66c0cee32d9e94bb6d0637650598916e32db2e77"
+    },
+    {
+      "ruta": "proyecto-api-vision/descargar_modelos_rostro.py",
+      "bytes": 2062,
+      "sha256": "11170586322c880f47a1465551f2d8c30f49f6a8f0b30af4edf25ec8b034204b"
+    },
+    {
+      "ruta": "proyecto-api-vision/entrenar_cnn.py",
+      "bytes": 24048,
+      "sha256": "51b58554a91faf2635c715bf4a891da389706b6c26dda55b907987e7db700ebd"
+    },
+    {
+      "ruta": "proyecto-api-vision/entrenar_rostros.py",
+      "bytes": 7570,
+      "sha256": "4227d07f09b233fe0f654819238aaa59b222da05837a7b4e04a0790c85e19270"
+    },
+    {
+      "ruta": "proyecto-api-vision/exponer_api.ps1",
+      "bytes": 3265,
+      "sha256": "7afcd1d6fca385e93b7819c0a1dd470314fb604042b6a35b6fd3f41d945d3324"
+    },
+    {
+      "ruta": "proyecto-api-vision/importar_dataset.py",
+      "bytes": 2643,
+      "sha256": "c8e11beda1334f13aba1abc96c7ed03f0614ddadccb88148008a6961819038de"
+    },
+    {
+      "ruta": "proyecto-api-vision/importar_zip_imagenes.py",
+      "bytes": 8714,
+      "sha256": "d357179c947b48ffe53f3644666a2e916534caf2ccfad1fdf025db560d51f968"
+    },
+    {
+      "ruta": "proyecto-api-vision/iniciar_mejorada.ps1",
+      "bytes": 403,
+      "sha256": "b8ded8d3de809e7fc06a616ae4910a8ca0ad3cd1e9b6726faaf45784bc2feceb"
+    },
+    {
+      "ruta": "proyecto-api-vision/limpiar_duplicados.py",
+      "bytes": 4580,
+      "sha256": "5b42f06b6c6d85139cc3d1362ef02b816f19a5ab3b43ec5166a64ce62c291880"
+    },
+    {
+      "ruta": "proyecto-api-vision/motor_rostros.py",
+      "bytes": 4079,
+      "sha256": "5a0ce68c723245776b250b597fde7fb3d395d2f2bff567f8e4fdfddc8ce80503"
+    },
+    {
+      "ruta": "proyecto-api-vision/preprocesamiento.py",
+      "bytes": 5743,
+      "sha256": "a878aa7de64e59e3a4e2ddd0c1ff3d944ce06e8b45c8875a32a871677007975f"
+    },
+    {
+      "ruta": "proyecto-api-vision/probar_api.py",
+      "bytes": 5185,
+      "sha256": "53a753b41acb040b23d8a804641a1860baa2d245f4f2364395f4ca221bd34448"
+    },
+    {
+      "ruta": "proyecto-api-vision/requirements-api.txt",
+      "bytes": 103,
+      "sha256": "52afea868dd14efd24bbdf4db99800bd5089f6488acdea588a84d9d2268e9344"
+    },
+    {
+      "ruta": "proyecto-api-vision/requirements-datos.txt",
+      "bytes": 181,
+      "sha256": "c86958c5535b37ba9d2710d54edc62e42edbf0b07410e64bb61eb043d2e2d711"
+    },
+    {
+      "ruta": "proyecto-api-vision/requirements.txt",
+      "bytes": 140,
+      "sha256": "fb68ec2959c5c1ed85de30a0952a8079a8b199c96e7e39eb06d941237d9a4e50"
+    },
+    {
+      "ruta": "proyecto-api-vision/sujetos.csv",
+      "bytes": 402,
+      "sha256": "2223dc6fc6268ad685399fefb887ff290a5bee09d7d55b1a03a6b7ee3ad8ba6e"
+    },
+    {
+      "ruta": "proyecto-api-vision/test_limpieza.py",
+      "bytes": 2932,
+      "sha256": "88d0f64b7874694ec3a7bdbc39fadef293344e37a462b7d9729f834810b94983"
+    },
+    {
+      "ruta": "proyecto-api-vision/test_mejoras.py",
+      "bytes": 6815,
+      "sha256": "516bc71fe90b46badbf45ee3a66f8925e02d2a9a14be80775f16ef606cd78dcd"
+    },
+    {
+      "ruta": "proyecto-api-vision/test_motor_rostros.py",
+      "bytes": 3587,
+      "sha256": "e9998c80db9d9c058b2eef0271df4a621924fa4d52bc996aa5291dc57a138fb5"
+    },
+    {
+      "ruta": "proyecto-api-vision/.github/workflows/construir-apk.yml",
+      "bytes": 1922,
+      "sha256": "dffe4bef920fbec3dd9a82b1efa44a02c4b1fed633447afd5c08e5d1dfe558a4"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/.gitignore",
+      "bytes": 24,
+      "sha256": "6c7d15d2ab1a0b51ebcae7e88b9ad01f0713d0833bc2dbe8f3bcc7a81b66b344"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/README.md",
+      "bytes": 6353,
+      "sha256": "00a891db0ad2e1e833d0aedfb376d07868d86eb983eccf1f68d2bc3a27d8a2e5"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/capacitor.config.json",
+      "bytes": 143,
+      "sha256": "85e74e3c0320b86d2f4c44dc3e26226fe6887692b00cf16891bbe94c63d97dce"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/package-lock.json",
+      "bytes": 41062,
+      "sha256": "b710f0cca1570b832519cf3415d3ba75cbb73173f0f40655cbc4e827482538ba"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/package.json",
+      "bytes": 473,
+      "sha256": "5c8edd0fa09e9e90ae281db3933d477b22ce47e3b4525132a3e0a70b19c88304"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/.github/workflows/construir-apk.yml",
+      "bytes": 1530,
+      "sha256": "5ed8356fdd16c7009ff340e5a89ef0807b661ccbc7e2486c5f4d66b7342563a2"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/.gitignore",
+      "bytes": 1824,
+      "sha256": "065e4a92a240fe11a0ea230491ad9dabef143f5fd5a3e6884ad6f0395666a971"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/build.gradle",
+      "bytes": 637,
+      "sha256": "46ade7db7afeb8049ccea59fce83095dca736ceb8c9acd79cc944e988c3357d9"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/capacitor.settings.gradle",
+      "bytes": 207,
+      "sha256": "b488e162f552d6efb8286793c7871bbc1061c9bf5ca3a6a495fdeb8988a541c7"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/gradle.properties",
+      "bytes": 987,
+      "sha256": "3bab15c5b8bc4c2f4b6cf525497d15ad4abca53a460e6dd2eb0f0135817d31e6"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/gradlew",
+      "bytes": 8733,
+      "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/gradlew.bat",
+      "bytes": 2937,
+      "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/settings.gradle",
+      "bytes": 208,
+      "sha256": "6ce098d15ebd69b44c4ecd786bca1bdc366340d2459b2af4d7bb0ab317aa9669"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/variables.gradle",
+      "bytes": 498,
+      "sha256": "83d502c9ed8fcf1dd4791482067abeedbebae49fafe9cd14a8a1f5891deb0d88"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/.gitignore",
+      "bytes": 26,
+      "sha256": "99c54e51ee601a60fbde8016b2cbf717483bc2e92773be86c9247d02a7fa6ea4"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/build.gradle",
+      "bytes": 2142,
+      "sha256": "0dad91b494e0c7fe52f0fa1db7f6700c5d681ad6869a9d023c832287175b465b"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/capacitor.build.gradle",
+      "bytes": 370,
+      "sha256": "7051cadfdbc532197d2cfd4f8a11684d81367f23cf7952e5a208f7b6aa0833e0"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/proguard-rules.pro",
+      "bytes": 751,
+      "sha256": "1cf8c57e8f79c250b0af9c1a5a4edad71a5c348a79ab70243b6bae086c150ad2"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
+      "bytes": 774,
+      "sha256": "ff50b4c110a7434312f9af54171f9e8523b015836f707c9b387b76d4c38a97f8"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/AndroidManifest.xml",
+      "bytes": 1875,
+      "sha256": "3d5e9e2c27d0e65f8abf83a52379f7e3461b0b29156cd65c96f1803cbad38497"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/assets/capacitor.config.json",
+      "bytes": 136,
+      "sha256": "1965cb650afba328a3178e4dfdf302031ffdd8b848c5f2ec372399cc78eb9c95"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/assets/capacitor.plugins.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/assets/public/api.js",
+      "bytes": 2986,
+      "sha256": "d13a7b2e7c9e4ee8ecc89f05852c9698566982a426a760641d62a2c44742ae86"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/assets/public/app.js",
+      "bytes": 11722,
+      "sha256": "e89aab17b3fce8a36555fe551f81ee5afd98e635cc69be52b274a6701088f141"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/assets/public/config.js",
+      "bytes": 498,
+      "sha256": "92abcfb110d9a788f527f8751bae1bd23387bc506587ff581640d5c613c5aa1e"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/assets/public/cordova.js",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/assets/public/cordova_plugins.js",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/assets/public/estilos.css",
+      "bytes": 5152,
+      "sha256": "3a1aa2dcd1869bed745c940b94c2633ca145faabed1ed6cdaf0aa1f194ff2141"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/assets/public/index.html",
+      "bytes": 2956,
+      "sha256": "5a355b35542f3daf59a17cb6aa2330de4b831fe85e4df699f660275b692514c3"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/assets/public/matriz.js",
+      "bytes": 4963,
+      "sha256": "fbee250cf6788162299f1c9e77520c95847244f57dc20cb6ca1cdbbd7eb5013c"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/java/cl/duoc/reconocimiento/MainActivity.java",
+      "bytes": 126,
+      "sha256": "955cd009ff302827f879be8ace7193f183dfc2819e927d3fecab6fbba07fe196"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable/ic_launcher_background.xml",
+      "bytes": 5606,
+      "sha256": "718ba51adf166bb55c3e9936bb8199a0148457f7f0191aaa2f37a94f3159d6ec"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable/splash.png",
+      "bytes": 4040,
+      "sha256": "5cf98b4451bd99b20df26f9e608a46946118be6b0ae90762f9ca1786a30c76ff"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-land-hdpi/splash.png",
+      "bytes": 7705,
+      "sha256": "08cc34ad7713fe7ed58bceaa37b2387b670c53cd60264b4bd6442db3098e75dc"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-land-mdpi/splash.png",
+      "bytes": 4040,
+      "sha256": "5cf98b4451bd99b20df26f9e608a46946118be6b0ae90762f9ca1786a30c76ff"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-land-xhdpi/splash.png",
+      "bytes": 9251,
+      "sha256": "22f87e1e3bc89aa01a7dbc39c9a4db058cd0bf4ad3fe9f55712bf69eb997f4bf"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-land-xxhdpi/splash.png",
+      "bytes": 13984,
+      "sha256": "42aa26392546fcdee1b8d3ac6d4b41bfcceb41dc6a4f3a3c30c24a8a8f4db862"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-land-xxxhdpi/splash.png",
+      "bytes": 17683,
+      "sha256": "60393ce8636fd263e4e1fea3fd4ab2de948c6295e898fda9b50ac4e5283be809"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-port-hdpi/splash.png",
+      "bytes": 7934,
+      "sha256": "c5015f4ba3628392b538386c5e210f0b94f352a3160adab934fd0311972137ca"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-port-mdpi/splash.png",
+      "bytes": 4096,
+      "sha256": "07fa579e1c83e04ba7f9cbcbfcf41b68e15fe3638f2c44a04e58b809103e6b69"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-port-xhdpi/splash.png",
+      "bytes": 9875,
+      "sha256": "b73049cb37fe76d6c11b87a796766bf6af0c85483b31eb6a921657b0d764a4b9"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-port-xxhdpi/splash.png",
+      "bytes": 13346,
+      "sha256": "0c7f1212f25b7b90e9a6e1d320013e4ff3d3e03e634cbb07b7b7981cac51627f"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-port-xxxhdpi/splash.png",
+      "bytes": 17489,
+      "sha256": "3db071a03b2f8ffe0dfd4170fc59842d53cd15bba5e88af59401d58efabf7827"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
+      "bytes": 1880,
+      "sha256": "a8514094f754b099d3e55ce1d6e0b2de79db418b2eeacb0fc2a6bb0bfadef221"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/layout/activity_main.xml",
+      "bytes": 535,
+      "sha256": "5d770feb791313b947020cbfc57e5c733c556dac5e9e49261a1190e527073253"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "bytes": 265,
+      "sha256": "9c3a7e0a6515c6e1a7ae834a9ae430311ebc3241f7b2e5e7f0460aa690709a7c"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "bytes": 265,
+      "sha256": "9c3a7e0a6515c6e1a7ae834a9ae430311ebc3241f7b2e5e7f0460aa690709a7c"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "bytes": 2786,
+      "sha256": "72b71c3581ca3b5a23b1c168d69b9d855b3f184fa079902a01f088eb4f0607d5"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "bytes": 3450,
+      "sha256": "32baa10d2632a4417454a579f992bd640e0a3cec79321423559b2c9940de58a9"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+      "bytes": 4341,
+      "sha256": "bfcc1b0fa931b14bb241372c76ab4f04374b67d02363c98d9cb12edfdacdf5f3"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "bytes": 1869,
+      "sha256": "27ed3603010ebc278f64f8645741ab132ff517abb5308eb9df6c8e42a48956b2"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "bytes": 2110,
+      "sha256": "58e78a618778926b1f6d9472a6468de878de8530970934e94aab5ba4ba08cc00"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+      "bytes": 2725,
+      "sha256": "0166fc333074c373fbd0ce6b5defd71552166165ac778121ca9c9dff6b83f0fc"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "bytes": 3981,
+      "sha256": "d35dbfff175b83c13ef59cf924abfc810f7b6a158595d7417c5498ea8c7c7ed1"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "bytes": 5036,
+      "sha256": "6f88083b8166cc559102f7044688de7525287632ebe09ac45d001ac8bf4b3eae"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+      "bytes": 6593,
+      "sha256": "40911a00922868686854a4804b93fd6e56b503664696de03f450bff690affb6d"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "bytes": 6644,
+      "sha256": "ed346eb1e3f0280f15709393705899b3ff55c20b88f4e0308006b3c33cf5fe14"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "bytes": 9793,
+      "sha256": "4a82bc1e9923576275869998925ce0ae021a79aa18b24a0dd87ad6b61ca85053"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+      "bytes": 10455,
+      "sha256": "1ee4cd9ff371dcb2e3938097e434f6fb8731688ed7165e61fc63693ad5b2f455"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "bytes": 9441,
+      "sha256": "87cb2f2ffe992652bb4fa768c73719a37b5852ab17fbf8e170e888f7a42b0761"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "bytes": 15529,
+      "sha256": "bd24fd383253bf8d43f0a81f11c071d76d1d555114376dd647cd9fb38fa0a9da"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+      "bytes": 15916,
+      "sha256": "ab93096331e7cd8ec379f73f1e9adcaaa9ee1115c9f4ff10411a811fb9700174"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/values/ic_launcher_background.xml",
+      "bytes": 120,
+      "sha256": "cd40bafe618ff506f4088778b135cb4faa15f25e0c9b475e22d730c74b7be115"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/values/strings.xml",
+      "bytes": 322,
+      "sha256": "058944471fed9877594b03710d2f732a06e8ccaafef3191b8d6712da4a7153c6"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/values/styles.xml",
+      "bytes": 823,
+      "sha256": "18ebba36575e9461347ee67361b23caf095f158ee85dbefe1b83a4669ba5bd6c"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/xml/config.xml",
+      "bytes": 185,
+      "sha256": "e9dcda493e663c5c4db9e3cb3bd968477a6e90aa8840bcbba40d72ed54b767ce"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/main/res/xml/file_paths.xml",
+      "bytes": 213,
+      "sha256": "a46ed43ef65c90cb6778f4581decf3556e3f0055aad8f36d69dae16f9a0e99aa"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java",
+      "bytes": 402,
+      "sha256": "d4045ae8fac1f0807e6b24eb34e68409a9a235df9d1a3f896fb8c9a49424363d"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/capacitor-cordova-android-plugins/build.gradle",
+      "bytes": 1668,
+      "sha256": "28e3fa281f4d1e388bf98abc7f5bb31e672516e385c165c719d201ed54b8236e"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/capacitor-cordova-android-plugins/cordova.variables.gradle",
+      "bytes": 312,
+      "sha256": "b13104b34f7738abceec358ae8226ba5e64855e97babde54a115880e9b9bd47b"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml",
+      "bytes": 210,
+      "sha256": "2e3e383475f0e6cb76f0a7b46017a546663fba8e5bd1ef2a537412afac2ee9b5"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/capacitor-cordova-android-plugins/src/main/java/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/capacitor-cordova-android-plugins/src/main/res/.gitkeep",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 43764,
+      "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/android/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 253,
+      "sha256": "9a479a85aa879bb55284fc16d0de5b81a745c3854f4e2d88c42e7debaf007435"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/docs/captura_identificado.png",
+      "bytes": 364830,
+      "sha256": "2accbc5ece078105068fc2a2e66e558ffb5b295a786a40f140dc5481af8c821d"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/docs/captura_sin_coincidencia.png",
+      "bytes": 122196,
+      "sha256": "a04ea3686f6ab1aa6f69cf8d3ed77db0499960532f1f78f422c9b9ab7fcfd9de"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/scripts/probar_ajustes.py",
+      "bytes": 1267,
+      "sha256": "8528e624e462f329fef17458755f889af4b8a62bfce14aaf3c777b5a99d659c0"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/scripts/probar_camara.py",
+      "bytes": 4149,
+      "sha256": "4f6ee256156e7bccd99f72f4d33a0e64c4d1eb1e576097b59abcbdbe0aca29a8"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/scripts/probar_e2e.py",
+      "bytes": 7746,
+      "sha256": "1cc983912adc5f948878557a3cef7ffc7ab1db99cce52a8f784a9c5fd48765d3"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/scripts/probar_fotos_e2e.py",
+      "bytes": 5743,
+      "sha256": "5be8033017ac58ec6891d875f0f687472982ac4c99d984f806d920eb0da4503c"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/scripts/probar_matriz.mjs",
+      "bytes": 2550,
+      "sha256": "7708892fb3e64f35b0b657a88a4b05d41cdea2c7cfead154bdaf10b5e5c5a792"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/scripts/servidor_estatico.mjs",
+      "bytes": 1411,
+      "sha256": "7b8a37ee2987a312827d1c1868917ef939443a548987172dc8e74e39e7c9cb0e"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/www/api.js",
+      "bytes": 3853,
+      "sha256": "8ffbc3f2c51aaecbcde1f374f9941cfb3d07747e367be96ab3d6b264e8ee5bdf"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/www/app.js",
+      "bytes": 14264,
+      "sha256": "50925c2ce68b713a81ecdee12dfce88ad83aa8396e5ec8f65aa0b83145574067"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/www/config.js",
+      "bytes": 498,
+      "sha256": "92abcfb110d9a788f527f8751bae1bd23387bc506587ff581640d5c613c5aa1e"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/www/estilos.css",
+      "bytes": 5152,
+      "sha256": "3a1aa2dcd1869bed745c940b94c2633ca145faabed1ed6cdaf0aa1f194ff2141"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/www/index.html",
+      "bytes": 2956,
+      "sha256": "5a355b35542f3daf59a17cb6aa2330de4b831fe85e4df699f660275b692514c3"
+    },
+    {
+      "ruta": "proyecto-api-vision/app-movil/www/matriz.js",
+      "bytes": 5678,
+      "sha256": "0156955c507bc45335e965200860ada61e618a56b1360824e4e6936f63a85187"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/bp_01/bp_01_01.jpeg",
+      "bytes": 173536,
+      "sha256": "f9648af2a65180cc8825f723d6f5010269cbf53b6d2b6033c73df3a4f116acfd"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/bp_01/bp_01_02.jpeg",
+      "bytes": 157980,
+      "sha256": "87ca6245c165ba0220971830ab1ca08f588d5c5cfd6856f373a6ae3442073a45"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/bp_01/bp_01_03.jpeg",
+      "bytes": 185514,
+      "sha256": "afe78a1aa49a5297476dde38e864f7e08b3920193016230ab3f79b69678b45df"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/bp_01/bp_01_04.jpeg",
+      "bytes": 182277,
+      "sha256": "8e0fcdda0af98698f78bb092be2346a28d2a9803edcf350baa48db7adf4f03b3"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/bp_01/bp_01_05.jpeg",
+      "bytes": 181524,
+      "sha256": "207340433e210c5c5199b44e4c072029d509a1b912e57a1664360c39f681bc9a"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/bp_01/bp_01_06.jpeg",
+      "bytes": 177047,
+      "sha256": "6d5a5a23676a0d01922d287eacd51f2fc4a6c490dacec9131937e0f96ae17e19"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/bp_01/bp_01_07.jpeg",
+      "bytes": 176333,
+      "sha256": "f1a9523866c5722cbe62f352e3089e419a4d92020b0e2995455e7e1105f580c6"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/bp_01/bp_01_08.jpeg",
+      "bytes": 177920,
+      "sha256": "321c84cd8cb5824bf7dc7348e71abd9511c91b98d1eb86a66a8fa385024aba05"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/bp_01/bp_01_09.jpeg",
+      "bytes": 183418,
+      "sha256": "f6bccb069e309bc6231a037146ec9f87bbd93654f8af4673b3eb6cdac4e11423"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/bp_01/bp_01_10.jpeg",
+      "bytes": 169448,
+      "sha256": "31587e7301f41f8eac53f8d5cd42bca75f22886671ef319d4ccb72bb82d0fcb8"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/cv_01/cv_01_01.jpeg",
+      "bytes": 156779,
+      "sha256": "54d608a07d4d1d0e0dd4676e34d7fdc569d09fad85434d6774e7afcb4b906007"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/cv_01/cv_01_02.jpeg",
+      "bytes": 144391,
+      "sha256": "db3a79868020a289d7b7683469156271783528aa2c8dead9eff3d7a3f8a371ac"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/cv_01/cv_01_03.jpeg",
+      "bytes": 124023,
+      "sha256": "9c2b3b62e9779c2b19e015730ca390e1df16e4a82c3d58ab8bdabb321242687a"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/cv_01/cv_01_04.jpeg",
+      "bytes": 148420,
+      "sha256": "6444b56662c36e6c1faa78c4f56b1cf564d4fd9e786160dbb67601770d052e89"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/cv_01/cv_01_05.jpeg",
+      "bytes": 104079,
+      "sha256": "a968273d7becc83a6158da96e9ef23890dbb2c763350beebb0ae79b2878c9e3d"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/cv_01/cv_01_06.jpeg",
+      "bytes": 135164,
+      "sha256": "bb8f338553b9056a9ae29a75286aa597392906c7e5ab1dfb8261938f551f446f"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/cv_01/cv_01_07.jpeg",
+      "bytes": 134907,
+      "sha256": "cd41749a879c0ae65a55e9eb8e90ff8cbbbf295c319245fbe2904627d23d5c7a"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/cv_01/cv_01_08.jpeg",
+      "bytes": 117430,
+      "sha256": "955ca340bfc14e3e594d1592d4e38e4d49ca2f08522d0d099e793bd5a4eca44a"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/cv_01/cv_01_09.jpeg",
+      "bytes": 122562,
+      "sha256": "a352244fc2b4e8e2ec47dac09620dcedd9a121b822d1774e3bdca14369494178"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/cv_01/cv_01_10.jpeg",
+      "bytes": 126713,
+      "sha256": "a4376e32474417809e35f1e2e4b4110893502d7b6903811f3344be3e46de399a"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fq_01/fq_01_01.jpeg",
+      "bytes": 49170,
+      "sha256": "7eb12e434b27111e1108affa4ff5b6e5aa4975c571e6130141272f19fd237547"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fq_01/fq_01_02.jpeg",
+      "bytes": 50426,
+      "sha256": "b5fb8fb4967391e4e285c151daa3ac8a98c7bcd50274d88dfdaf49f701b5b19a"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fq_01/fq_01_03.jpeg",
+      "bytes": 50412,
+      "sha256": "28dea5db16a0b8a8725069f6ee6cfde53f1067f3bb6d037376b8db599c247f49"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fq_01/fq_01_04.jpeg",
+      "bytes": 49319,
+      "sha256": "d46a32b4e80fae00b680be10fdf6b30c39086b20e49af6e0c79f2b490f7e8e55"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fq_01/fq_01_05.jpeg",
+      "bytes": 49932,
+      "sha256": "375335f0526ffe3c71fb10c0866549fc837935d3985bee4ca696b68dccee1819"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fq_01/fq_01_06.jpeg",
+      "bytes": 48938,
+      "sha256": "45db6a8870ea5303d3a9848c5dce6e4d1b97aa829e040fc1b1d57d6532d27a98"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fq_01/fq_01_07.jpeg",
+      "bytes": 49411,
+      "sha256": "8310da0e1921eb353ff2f9ed601d43a03c0563007d24a01e154e2ce4bc02d738"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fq_01/fq_01_08.jpeg",
+      "bytes": 48459,
+      "sha256": "97e367a954606eb2b272e9e11f188ab45ffa776167fd8968db165733f0eb31d0"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fq_01/fq_01_09.jpeg",
+      "bytes": 48936,
+      "sha256": "012926d8ee7c68d6ecb338b8dcb661605a5ad339396d3dfb6bc8511d450e1ba2"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fq_01/fq_01_10.jpeg",
+      "bytes": 49875,
+      "sha256": "552669d4803058ac61e079ddae5246850be1e6a6611a908184decc187477ffaf"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fv_01/fv_01_01.jpeg",
+      "bytes": 75094,
+      "sha256": "1fb135f1d3e9f9266c0b59d3143dd47ac4c893280cef8aaa1a6d0a0adc0c2c59"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fv_01/fv_01_02.jpeg",
+      "bytes": 46283,
+      "sha256": "1d387fb70215d2bb3bc08a3caa7ba2a1c69882011ba66756ea3b61316fd5dcf0"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fv_01/fv_01_03.jpeg",
+      "bytes": 55513,
+      "sha256": "42819d951114c16e7236e7f4d0178c3b5c6d15625a012d9ca04a54fb4567f24e"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fv_01/fv_01_04.jpeg",
+      "bytes": 71413,
+      "sha256": "04e6f465f5e96780c7749eeff5ad7b728e5bc4e0b600ee7a294f8a5980228042"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fv_01/fv_01_05.jpeg",
+      "bytes": 68878,
+      "sha256": "4fea5a34447c5f1bb4061dd5108fbfd251e08fdf1ecdeed4861792bdbb1d2d49"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fv_01/fv_01_06.jpeg",
+      "bytes": 83081,
+      "sha256": "62b13295c2eddf3989a954f4ba0bbb1b3cb82ac47c48acda231e14e162227a83"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fv_01/fv_01_07.jpeg",
+      "bytes": 51870,
+      "sha256": "d31a8c448770f91cd54c03cecf456b9527b1ad3e01465d467b4cf84b69560013"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fv_01/fv_01_08.jpeg",
+      "bytes": 64755,
+      "sha256": "f14ba520b07a36b75c6caead7ad587ddc3ecbdfb7a365da001ef3aac6bfc4b87"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fv_01/fv_01_09.jpeg",
+      "bytes": 53230,
+      "sha256": "e734127c91e51258490b11b2073c6901016fd02da551e97878f0cb87d2590c78"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/fv_01/fv_01_10.jpeg",
+      "bytes": 82599,
+      "sha256": "6e946114796239393c272c5edb7ff79f46844194c4e95974c45c65f58d506277"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/ge_01/ge_01_01.jpeg",
+      "bytes": 23286,
+      "sha256": "5b5464cc45b79b2172ba1837a4adb48621af04d655691cdc920ec2c998456397"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/ge_01/ge_01_02.jpeg",
+      "bytes": 21152,
+      "sha256": "b72444969d874be3b56f9a998f080110386b8ba75c62cefc606b19273436ce46"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/ge_01/ge_01_03.jpeg",
+      "bytes": 20126,
+      "sha256": "b58d1be3278a8b6316f2c8dde2fccbcfb98e923698d55361e63c34a8bdfc41ef"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/ge_01/ge_01_04.jpeg",
+      "bytes": 22999,
+      "sha256": "c6dead8fef4c581ffc3653861ca74920c52a989d17de1c366c9ed20f6bb0a533"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/ge_01/ge_01_05.jpeg",
+      "bytes": 19503,
+      "sha256": "cb9cd8848c3242758ec73d175b72b10bcb415536c6a5a55dccc5227996c14316"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/ge_01/ge_01_06.jpeg",
+      "bytes": 20520,
+      "sha256": "7f7e033435b4fd2d01380d37ae16256b6b84abdd1cd58846c606ca5c2849132c"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/ge_01/ge_01_07.jpeg",
+      "bytes": 19904,
+      "sha256": "7c7f8f676504bca1c5f44ce003d15856d195dea2e73a5c74bf051899ee5fa24b"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/ge_01/ge_01_08.jpeg",
+      "bytes": 21304,
+      "sha256": "485bbfc9ca9cdd6144e2a38e43d0d25b133fbe526feea608adf998e74beccda3"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/ge_01/ge_01_09.jpeg",
+      "bytes": 76420,
+      "sha256": "51621bdefc7a375745564d6eed709ed03afde6c65118e331a9d035f1594226f0"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/ge_01/ge_01_10.jpeg",
+      "bytes": 83361,
+      "sha256": "927fb71f4bf034ef48693ef1258371ef00e2b6bc16d3a4a42b97953c70743d65"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/jm_01/jm_01_01.jpeg",
+      "bytes": 108238,
+      "sha256": "9db5109d77f8097d38cc4ffb5d29e0c0d17a04fb6c18b8cd0f5bc519cbf332d7"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/jm_01/jm_01_02.jpeg",
+      "bytes": 86703,
+      "sha256": "e5d306294465931bf9997d0161f3af15d1e0ba0ca4abfbf6fdd4cc3627c57ff1"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/jm_01/jm_01_03.jpeg",
+      "bytes": 97058,
+      "sha256": "f067af549a59511239f8b079817194261ca1f447fcd12cb018a31e8b8df86caf"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/jm_01/jm_01_04.jpeg",
+      "bytes": 101253,
+      "sha256": "2afc15f16ea36039c005e2efe3e9eb50277546dcbe98bdb3f9dd34c11f89a4a5"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/jm_01/jm_01_05.jpeg",
+      "bytes": 91573,
+      "sha256": "607f9f2e852fd6a38a60cb55534ba836fd4ab0638e66b209512e6b2a60a428f0"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/jm_01/jm_01_06.jpeg",
+      "bytes": 91903,
+      "sha256": "11738b3b095640e5b11a10cbba389d3a9cae87aa1ccd8c4a61908c2c51ea9efd"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/jm_01/jm_01_07.jpeg",
+      "bytes": 112963,
+      "sha256": "465fa9ce3599396c5162c08e20f2ed8530fccf5370b1f51aa97a7e96be007828"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/jm_01/jm_01_08.jpeg",
+      "bytes": 114125,
+      "sha256": "d58d3246a3e1213adba29a14f8d3be848079f36d704c953a3996c1eb2e460e2b"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/jm_01/jm_01_09.jpeg",
+      "bytes": 87156,
+      "sha256": "ee16026fa629f6acbea24addcf0419cd5762fdc82dbc23f3afaaf6eccda0da0a"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/jm_01/jm_01_10.jpeg",
+      "bytes": 172892,
+      "sha256": "4ec63a951fffb288aaeb15e5f32f4cc6507b6120208b392af210415f591c7255"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/la_01/la_01_01.jpeg",
+      "bytes": 160738,
+      "sha256": "8eb411478395eae6f684b39ce8fa7f9dc8d5227fba67bc9969a2557a3d93a784"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/la_01/la_01_02.jpeg",
+      "bytes": 156534,
+      "sha256": "7de1196916e58627d42d976e24cdfa9f0ab13ce34255e06c980e68966f60a281"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/la_01/la_01_03.jpeg",
+      "bytes": 134969,
+      "sha256": "4a0b3102ac36fe9286a2ca2bbab87cbcad8ae8186bdce97c5eb0dc68638bfb8e"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/la_01/la_01_04.jpeg",
+      "bytes": 153651,
+      "sha256": "1d18839145b17bf832be698acc70d935453356cbea4894ea4e45690f16dc34e8"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/la_01/la_01_05.jpeg",
+      "bytes": 158371,
+      "sha256": "9517d5df62648ad8d2154c2d002acdb9815c0477269d3b0644ba8b2d52254b6f"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/la_01/la_01_06.jpeg",
+      "bytes": 148063,
+      "sha256": "644e8c13308dd8605621cfd150aeed9625edfa841fb80bc0af7c18c8f0e33838"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/la_01/la_01_07.jpeg",
+      "bytes": 162186,
+      "sha256": "0b77711a4baf21082a5bbca5e7f12f3888fcb67736749bd353c83caafa219c8e"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/la_01/la_01_08.jpeg",
+      "bytes": 210619,
+      "sha256": "79b612324753a0ae4a72e1f492291352bf88fa90e79c712304d30a499f8b64e4"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/la_01/la_01_09.jpeg",
+      "bytes": 157147,
+      "sha256": "160130602b04cf9fcc9a72f13d1d50fc558f0c7d452e003c3fc1482b3f5a12b9"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/la_01/la_01_10.jpeg",
+      "bytes": 150345,
+      "sha256": "69a32f52dbda77b641e08e76372bda66e4ecb8801184b704439aee6e1da889b9"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/mf_01/mf_01_01.jpeg",
+      "bytes": 89220,
+      "sha256": "a383a74f6a3ca9e5dce35251d287ad7e08dcb5b4bb774864f512836415baf5bf"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/mf_01/mf_01_02.jpeg",
+      "bytes": 100330,
+      "sha256": "3a2f865ec6773947f6c753a8df2d149f7338b2756b478c81535eed6fc105eccc"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/mf_01/mf_01_03.jpeg",
+      "bytes": 117448,
+      "sha256": "7924d08dafbd355f7e32bccf61886e139c57d687a59f2f07ea3e6aacd1b8b495"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/mf_01/mf_01_04.jpeg",
+      "bytes": 92008,
+      "sha256": "6dd8cd6d14f32d90015f54c7a677f77c440b4fb4b212c954d4a62a6b0f8f96cb"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/mf_01/mf_01_05.jpeg",
+      "bytes": 84487,
+      "sha256": "d887fe75ebddc0d1e6e31e17c6d8b7d654635ffe53fe239ec79ac9660abe8d67"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/mf_01/mf_01_06.jpeg",
+      "bytes": 80251,
+      "sha256": "5c781ee01e2e2205e4ea5a0676e7d3ec7652d2a800cb6119f340f230fa8a4e09"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/mf_01/mf_01_07.jpeg",
+      "bytes": 76401,
+      "sha256": "ae3df90eda7b37ed7773d30d72ee027753bfce595e6ad0680f45131935d90faf"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/mf_01/mf_01_08.jpeg",
+      "bytes": 87483,
+      "sha256": "c69d2cec039c681e0086b17629306843c751e3eaadb4e186105215f97d7c328d"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/mf_01/mf_01_09.jpeg",
+      "bytes": 91525,
+      "sha256": "1fb3db2aa84081e3e71a509f8634f01b23dd4474c979d0d1029a540148aac886"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/mf_01/mf_01_10.jpeg",
+      "bytes": 81582,
+      "sha256": "c227cc85ae06b1948d80d0bd64f1b21c2b54c1607e4daa82689ccdd3386cf61f"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/nc_01/nc_01_01.jpeg",
+      "bytes": 162564,
+      "sha256": "1d115ed935e3e55454a4c4388dabdfda4a31d6c164c0928e2a068f2d5c72937e"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/nc_01/nc_01_02.jpeg",
+      "bytes": 139925,
+      "sha256": "1a660b91f03a351a2a3debe222d0e96288596d50681e54d6bdecd826b8b3918b"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/nc_01/nc_01_03.jpeg",
+      "bytes": 109660,
+      "sha256": "36b134d80d6dcd6eb4912408b47f147a4550b4ed74d4ea0f984367a02bd00af6"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/nc_01/nc_01_04.jpeg",
+      "bytes": 103887,
+      "sha256": "7690c7bace1e5759aaf42547d7e40abd64b6d2656ed44ffe88494c76c64c5ffe"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/nc_01/nc_01_05.jpeg",
+      "bytes": 102728,
+      "sha256": "7492b54febc8cc5703975da9198ed54b4466b449c043619274d47549fe438e63"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/nc_01/nc_01_06.jpeg",
+      "bytes": 148058,
+      "sha256": "e08b07565d635bd007304f753868f0d14c06c4da9d3ded820da396bb81dcbc75"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/nc_01/nc_01_07.jpeg",
+      "bytes": 131879,
+      "sha256": "e6a3a315bc703b2aa643aa8d7ce6c383878d67fd261b0424cdda3d19513f6836"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/nc_01/nc_01_08.jpeg",
+      "bytes": 98765,
+      "sha256": "cc60281d7e61d370beedf5e80e612113e532dd6022f3562a3af8f5156f9ab0d9"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/nc_01/nc_01_09.jpeg",
+      "bytes": 108062,
+      "sha256": "93791b2b138cdcae552b4f2761e5a846ee33677e5de86cf67a13e08bc6bba96d"
+    },
+    {
+      "ruta": "proyecto-api-vision/data/images/nc_01/nc_01_10.jpeg",
+      "bytes": 161169,
+      "sha256": "4d682d528c00869ebaf0b0114854af9e327e489ee03c27be32afc355ce87a538"
+    },
+    {
+      "ruta": "proyecto-api-vision/datos_zip_20261022/LEEME.md",
+      "bytes": 1759,
+      "sha256": "7f4300b3ea07eaef27cbeaea3dbd1bf0c6265f9fd405e055e923b11512d1204d"
+    },
+    {
+      "ruta": "proyecto-api-vision/datos_zip_20261022/auditoria_integracion.json",
+      "bytes": 36278,
+      "sha256": "8cc03d090104632d404de7c503c0b3efc8b524963f5d9a0cc8186575a240080e"
+    },
+    {
+      "ruta": "proyecto-api-vision/datos_zip_20261022/auditoria_presentes.json",
+      "bytes": 28448,
+      "sha256": "f87710f130bee6cc5f4ca9c9f34740623c8868c41a62bd759c877291c9beaeac"
+    },
+    {
+      "ruta": "proyecto-api-vision/datos_zip_20261022/importacion.json",
+      "bytes": 36966,
+      "sha256": "250999f5bb1ac2ee234d4bead0cfd926796b768a02de91b02d7258427d240976"
+    },
+    {
+      "ruta": "proyecto-api-vision/datos_zip_20261022/muestras_aumento.png",
+      "bytes": 2275731,
+      "sha256": "2faf5ecd05fd2c37c4b836894bcdf89c5e8a34f04d2f559740e483092f87a85c"
+    },
+    {
+      "ruta": "proyecto-api-vision/datos_zip_20261022/sujetos_presentes.csv",
+      "bytes": 402,
+      "sha256": "1982c29b7617a2ab758d1f94f383b7c4adba77c9de7ed161231961c0c62a89f6"
+    },
+    {
+      "ruta": "proyecto-api-vision/modelos_rostro/face_detection_yunet_2023mar.onnx",
+      "bytes": 232589,
+      "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4"
+    },
+    {
+      "ruta": "proyecto-api-vision/modelos_rostro/face_detection_yunet_LICENSE",
+      "bytes": 1085,
+      "sha256": "c83b8120c50ccbd4c4f96edf53141bdd566ebb8f8e9227e415326aa1b1aba958"
+    },
+    {
+      "ruta": "proyecto-api-vision/modelos_rostro/face_recognition_sface_2021dec.onnx",
+      "bytes": 38696353,
+      "sha256": "0ba9fbfa01b5270c96627c4ef784da859931e02f04419c829e83484087c34e79"
+    },
+    {
+      "ruta": "proyecto-api-vision/modelos_rostro/face_recognition_sface_LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "ruta": "proyecto-api-vision/modelos_rostro/procedencia.json",
+      "bytes": 629,
+      "sha256": "cbe2df459132b96ee7e1287b15e9aeebef33507965619323c4b58b7deb1a9f3e"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_e2e/comparacion.png",
+      "bytes": 196228,
+      "sha256": "881c74b3c62edc03500544b2f3cfc4a4c20efccf791d5f0238d9899627b93d01"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_e2e/matriz_enviada_bp_01.png",
+      "bytes": 32281,
+      "sha256": "0073b03084f55420b309e4fadab8ec2a61ff6680c0c8b157e654cdf5df369edd"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_e2e/matriz_enviada_cv_01.png",
+      "bytes": 35174,
+      "sha256": "6ede9b9b90b54737bd1dbe6c776b3cca95c07a53771319af49b3f37d41a1409d"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_e2e/matriz_enviada_fq_01.png",
+      "bytes": 26325,
+      "sha256": "8afe3b120ee692c31ea0fc0e7e9fe5751a5c9281ee8bfa993f6402b84c5f7438"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_e2e/matriz_enviada_fv_01.png",
+      "bytes": 29967,
+      "sha256": "c8cbb28dde7ecfbfbc7ffc7c788835f5ce1873c8e0e68f62c1b51b547ac66c81"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_e2e/matriz_enviada_ge_01.png",
+      "bytes": 28522,
+      "sha256": "1809c6fe029a39796f22cb3527cd33267ec47dfed2f3c15c07473a8fd0c7906e"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_e2e/matriz_enviada_sin_persona.png",
+      "bytes": 1285,
+      "sha256": "1a5ce5daaf3a18b1b73a80b5b87babd5316865c8faea937b54e30a215a70602b"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_fotos_e2e/archivo.png",
+      "bytes": 150881,
+      "sha256": "4317aa5b6a95a06e0c6d133047fae08732725bb93e8d11a8256848aded8f8b20"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_fotos_e2e/camara.png",
+      "bytes": 150855,
+      "sha256": "e1bf9456f6966fda1513136851ec80c5e186d7b0d51bc1419a4f61a42acaef6c"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_fotos_e2e/resultados.json",
+      "bytes": 2204,
+      "sha256": "209dd0aa93b0e12a8b8862c95e54978113d771ca286ad589ffc9b4563aa4800b"
+    },
+    {
+      "ruta": "proyecto-api-vision/pruebas_fotos_e2e/sin_rostro.png",
+      "bytes": 32737,
+      "sha256": "b1cba8aa564ff3fec20bea24dce21f66b675bee2f7f787401ca949de92b9af21"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas/configuracion.json",
+      "bytes": 133,
+      "sha256": "2991d514846a08ee32eea0d961eaa55e2170ed0d175f9cd9df642d7f9364fbdb"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas/curvas_entrenamiento.png",
+      "bytes": 169788,
+      "sha256": "6e581aa46739b4d77cdb09aa1d2f0f84ab6dfa05712e23cb14332f7c706ebd70"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas/etiquetas.json",
+      "bytes": 238,
+      "sha256": "dde947b47718cf70fc7fda63ca2d20e68643d23629d41da57a0cdba550282c12"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas/matriz_confusion.png",
+      "bytes": 126392,
+      "sha256": "55cb07f8a48afa9b4887ebf3f6fac68c82fbef16be4e5af14f7101c7e4e03d84"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas/metricas.json",
+      "bytes": 2084,
+      "sha256": "03442c67e1856f71ce42437d00226b23f776bf5259ba656d31dd6443b0f82018"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas/modelo_rostros.keras",
+      "bytes": 1345069,
+      "sha256": "71bbeba685c262d6fbdcaf96444285ad70d34938fc76116ee7bcc883933ff22a"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas/reporte_clasificacion.txt",
+      "bytes": 782,
+      "sha256": "e3e48d80efbedc94022a2e274a369eb19495feb3f03d11aad7d2685939cced47"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas/umbral_desconocidos.png",
+      "bytes": 99621,
+      "sha256": "d55508bc541c03fb0c8af93f6b3c6f4646e10d440bfb1b1979f2815401035365"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_mejoradas/auditoria_dataset.json",
+      "bytes": 24306,
+      "sha256": "7f0011af1c22cb94dfa6b28971bd94526b54c2fae0d1c3d8454115dac8ef3574"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_mejoradas/configuracion.json",
+      "bytes": 1018,
+      "sha256": "53798ccc13414d6aa2dfb788d5d2441743d96b30f55f0227c689f88903abaa15"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_mejoradas/etiquetas.json",
+      "bytes": 248,
+      "sha256": "c8d09de46c809f23c1bf139606e8f4a712636179fe8f82318e1511951cc688e4"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_mejoradas/galeria.npz",
+      "bytes": 331682,
+      "sha256": "85744181b955df104cca8b457883e4a4531f31bf604f499b961228bfd6ee126a"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_mejoradas/metricas.json",
+      "bytes": 2280,
+      "sha256": "c3c208539e8a6b11d885d0f1890d10f8b2dbdaa00d18d501934631fae64038ef"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_mejoradas/modelos_preentrenados.json",
+      "bytes": 629,
+      "sha256": "cbe2df459132b96ee7e1287b15e9aeebef33507965619323c4b58b7deb1a9f3e"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_mejoradas/reporte_clasificacion.txt",
+      "bytes": 797,
+      "sha256": "aa63f9f73b0574d9b8e411544e5c9f067b144c1206b4c912c438d57a35b8c327"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_piloto_zip/auditoria_dataset.json",
+      "bytes": 24330,
+      "sha256": "71e49ffd362b7df9f45a5f1acebbdcbf79a85df51a9c66ad131d998e7f702a75"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_piloto_zip/configuracion.json",
+      "bytes": 483,
+      "sha256": "a36d836d7e3562977e042b6b438499ba3c597da50cc3f731adf6d08df09d5931"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_piloto_zip/curvas_entrenamiento.png",
+      "bytes": 100748,
+      "sha256": "e212e39ed05cddd3a7b714f3d6279e3ad5522ab01193e1326220643ce370aff8"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_piloto_zip/etiquetas.json",
+      "bytes": 248,
+      "sha256": "c8d09de46c809f23c1bf139606e8f4a712636179fe8f82318e1511951cc688e4"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_piloto_zip/matriz_confusion.png",
+      "bytes": 107420,
+      "sha256": "af9a59f272712371d7719faccee791c7070e77407d482502089ee3a1dec62a4f"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_piloto_zip/metricas.json",
+      "bytes": 2206,
+      "sha256": "b68de3236df0924326426942a65c60cee309b88eadd256510f44dae908d744da"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_piloto_zip/modelo_rostros.keras",
+      "bytes": 23270658,
+      "sha256": "8b24eb8b0b054a0c42da5f8d0d5c5bc3a30084a5dcba66db5d688d3639a987a4"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_piloto_zip/muestras_aumento.png",
+      "bytes": 2275731,
+      "sha256": "2faf5ecd05fd2c37c4b836894bcdf89c5e8a34f04d2f559740e483092f87a85c"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_piloto_zip/reporte_clasificacion.txt",
+      "bytes": 797,
+      "sha256": "308e4cd38e2852c15db2eb6abf6a7fb359e6a9a99038bbc42ea9db891aa4a6d0"
+    },
+    {
+      "ruta": "proyecto-api-vision/salidas_piloto_zip/umbral_desconocidos.png",
+      "bytes": 73341,
+      "sha256": "4fa872d987777af28954b14bd5d79537e57352a55e177b10767e7ce567ecabf5"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/.dvcignore",
+      "bytes": 142,
+      "sha256": "caf35ffe00329e1ac4bcec1947f19d1cd85955d7f4327e942cd647fb7a5a7bc6"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/.gitignore",
+      "bytes": 193,
+      "sha256": "9276fd4214320a6dc4c4c293efe05844a5ae826e192d26b84bc579384e715d9f"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/README.md",
+      "bytes": 2572,
+      "sha256": "e12cb46d8d57749147f4cf727f1e4db3b29782ef9c6de5a4998622ac54a9b5fa"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/ingestar_datos.py",
+      "bytes": 2839,
+      "sha256": "2693adde0d6d66042dfdbd257d30455962ec3d59179bea4147bc269e1b2bb30e"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/requirements.txt",
+      "bytes": 17,
+      "sha256": "c09073fe9dc038accfd782c8546780d262459692efdb73f565bc9925869baaea"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/sujetos.csv",
+      "bytes": 1465,
+      "sha256": "231e98de893e31f1daa476065fbbe1acc7757bd727363af0531960ad812a44e8"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/.dvc/.gitignore",
+      "bytes": 29,
+      "sha256": "bff414df05f958209aa5ea44dabe2f50ab22e24997631a3853ebad0904ade8ed"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/.dvc/config",
+      "bytes": 120,
+      "sha256": "4cfe17e311231edc71f0f08170aaa6d51917bdf10bdc4ca77ad6feaefcc85055"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/.gitignore",
+      "bytes": 9,
+      "sha256": "3e220c98939da64cdef855d5b8a36c3ed2c990d8710d36f0baecfdab1b21d675"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images.dvc",
+      "bytes": 114,
+      "sha256": "1257ece92831590a54bcdc143c35024ea354ac913dc19b4cc5453e98a1bdc92f"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/bp_01/bp_01_01.png",
+      "bytes": 1877093,
+      "sha256": "7a8da39469e23ea7247c465b24593becc1b0386ee081ef07e94dfab4a141453c"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/bp_01/bp_01_02.png",
+      "bytes": 1827665,
+      "sha256": "bc7bff5655b1e6c4a31351d865f48ae0b4c2459e1bfd01aec79fd865b377718f"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/bp_01/bp_01_03.png",
+      "bytes": 1860641,
+      "sha256": "d1523b230567f835b22cee97052a1b3dcdff2be797d9efedf61376f9ad566e34"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/bp_01/bp_01_04.png",
+      "bytes": 1829178,
+      "sha256": "998f3d8c513e10f34cb830226f9d9bc51375b7442fc27f706beb7ff1978da192"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/bp_01/bp_01_05.png",
+      "bytes": 1805161,
+      "sha256": "7b082833e8ae010125516a3624274c161dea5e5cbae07a36b92c46d5164b2e06"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/bp_01/bp_01_06.png",
+      "bytes": 1890475,
+      "sha256": "d32dbd5e03c10b4c9599dd707086762f2e830f988e36dcef83e6d35e230eb509"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/bp_01/bp_01_07.png",
+      "bytes": 1791735,
+      "sha256": "b200db7f6eea7733a22787051812a951bcd0083f1c0f02fdf2b503f2487d6362"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/bp_01/bp_01_08.png",
+      "bytes": 1745380,
+      "sha256": "7d683ef13d51a969677324c14dd2659bdf13c9a2991654364f6720e41f6a274f"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/bp_01/bp_01_09.png",
+      "bytes": 1767964,
+      "sha256": "99d58f3eeaf532e75e7b0ce379b8e7b0790d7469edc8fae540d17fa12cfac033"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/bp_01/bp_01_10.png",
+      "bytes": 1745056,
+      "sha256": "488a8bb5dbfdded5b3b826f2de23f7953d0134dca3d4af8550b5fa4099147b42"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/cv_01/cv_01_01.jpeg",
+      "bytes": 156779,
+      "sha256": "54d608a07d4d1d0e0dd4676e34d7fdc569d09fad85434d6774e7afcb4b906007"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/cv_01/cv_01_02.jpeg",
+      "bytes": 144391,
+      "sha256": "db3a79868020a289d7b7683469156271783528aa2c8dead9eff3d7a3f8a371ac"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/cv_01/cv_01_03.jpeg",
+      "bytes": 124023,
+      "sha256": "9c2b3b62e9779c2b19e015730ca390e1df16e4a82c3d58ab8bdabb321242687a"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/cv_01/cv_01_04.jpeg",
+      "bytes": 148420,
+      "sha256": "6444b56662c36e6c1faa78c4f56b1cf564d4fd9e786160dbb67601770d052e89"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/cv_01/cv_01_05.jpeg",
+      "bytes": 104079,
+      "sha256": "a968273d7becc83a6158da96e9ef23890dbb2c763350beebb0ae79b2878c9e3d"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/cv_01/cv_01_06.jpeg",
+      "bytes": 135164,
+      "sha256": "bb8f338553b9056a9ae29a75286aa597392906c7e5ab1dfb8261938f551f446f"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/cv_01/cv_01_07.jpeg",
+      "bytes": 134907,
+      "sha256": "cd41749a879c0ae65a55e9eb8e90ff8cbbbf295c319245fbe2904627d23d5c7a"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/cv_01/cv_01_08.jpeg",
+      "bytes": 117430,
+      "sha256": "955ca340bfc14e3e594d1592d4e38e4d49ca2f08522d0d099e793bd5a4eca44a"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/cv_01/cv_01_09.jpeg",
+      "bytes": 122562,
+      "sha256": "a352244fc2b4e8e2ec47dac09620dcedd9a121b822d1774e3bdca14369494178"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/cv_01/cv_01_10.jpeg",
+      "bytes": 126713,
+      "sha256": "a4376e32474417809e35f1e2e4b4110893502d7b6903811f3344be3e46de399a"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fq_01/fq_01_01.jpeg",
+      "bytes": 49170,
+      "sha256": "7eb12e434b27111e1108affa4ff5b6e5aa4975c571e6130141272f19fd237547"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fq_01/fq_01_02.jpeg",
+      "bytes": 50426,
+      "sha256": "b5fb8fb4967391e4e285c151daa3ac8a98c7bcd50274d88dfdaf49f701b5b19a"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fq_01/fq_01_03.jpeg",
+      "bytes": 50412,
+      "sha256": "28dea5db16a0b8a8725069f6ee6cfde53f1067f3bb6d037376b8db599c247f49"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fq_01/fq_01_04.jpeg",
+      "bytes": 49319,
+      "sha256": "d46a32b4e80fae00b680be10fdf6b30c39086b20e49af6e0c79f2b490f7e8e55"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fq_01/fq_01_05.jpeg",
+      "bytes": 49932,
+      "sha256": "375335f0526ffe3c71fb10c0866549fc837935d3985bee4ca696b68dccee1819"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fq_01/fq_01_06.jpeg",
+      "bytes": 48938,
+      "sha256": "45db6a8870ea5303d3a9848c5dce6e4d1b97aa829e040fc1b1d57d6532d27a98"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fq_01/fq_01_07.jpeg",
+      "bytes": 49411,
+      "sha256": "8310da0e1921eb353ff2f9ed601d43a03c0563007d24a01e154e2ce4bc02d738"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fq_01/fq_01_08.jpeg",
+      "bytes": 48459,
+      "sha256": "97e367a954606eb2b272e9e11f188ab45ffa776167fd8968db165733f0eb31d0"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fq_01/fq_01_09.jpeg",
+      "bytes": 48936,
+      "sha256": "012926d8ee7c68d6ecb338b8dcb661605a5ad339396d3dfb6bc8511d450e1ba2"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fq_01/fq_01_10.jpeg",
+      "bytes": 49875,
+      "sha256": "552669d4803058ac61e079ddae5246850be1e6a6611a908184decc187477ffaf"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fv_01/fv_01_01.jpeg",
+      "bytes": 75094,
+      "sha256": "1fb135f1d3e9f9266c0b59d3143dd47ac4c893280cef8aaa1a6d0a0adc0c2c59"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fv_01/fv_01_02.jpeg",
+      "bytes": 46283,
+      "sha256": "1d387fb70215d2bb3bc08a3caa7ba2a1c69882011ba66756ea3b61316fd5dcf0"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fv_01/fv_01_03.jpeg",
+      "bytes": 55513,
+      "sha256": "42819d951114c16e7236e7f4d0178c3b5c6d15625a012d9ca04a54fb4567f24e"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fv_01/fv_01_04.jpeg",
+      "bytes": 83081,
+      "sha256": "62b13295c2eddf3989a954f4ba0bbb1b3cb82ac47c48acda231e14e162227a83"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fv_01/fv_01_05.jpeg",
+      "bytes": 68878,
+      "sha256": "4fea5a34447c5f1bb4061dd5108fbfd251e08fdf1ecdeed4861792bdbb1d2d49"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fv_01/fv_01_06.jpeg",
+      "bytes": 53230,
+      "sha256": "e734127c91e51258490b11b2073c6901016fd02da551e97878f0cb87d2590c78"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fv_01/fv_01_07.jpeg",
+      "bytes": 51870,
+      "sha256": "d31a8c448770f91cd54c03cecf456b9527b1ad3e01465d467b4cf84b69560013"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fv_01/fv_01_08.jpeg",
+      "bytes": 64755,
+      "sha256": "f14ba520b07a36b75c6caead7ad587ddc3ecbdfb7a365da001ef3aac6bfc4b87"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fv_01/fv_01_09.jpeg",
+      "bytes": 71413,
+      "sha256": "04e6f465f5e96780c7749eeff5ad7b728e5bc4e0b600ee7a294f8a5980228042"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/fv_01/fv_01_10.jpeg",
+      "bytes": 82599,
+      "sha256": "6e946114796239393c272c5edb7ff79f46844194c4e95974c45c65f58d506277"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/ge_01/ge_01_01.jpeg",
+      "bytes": 22999,
+      "sha256": "c6dead8fef4c581ffc3653861ca74920c52a989d17de1c366c9ed20f6bb0a533"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/ge_01/ge_01_02.jpeg",
+      "bytes": 19503,
+      "sha256": "cb9cd8848c3242758ec73d175b72b10bcb415536c6a5a55dccc5227996c14316"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/ge_01/ge_01_03.jpeg",
+      "bytes": 20520,
+      "sha256": "7f7e033435b4fd2d01380d37ae16256b6b84abdd1cd58846c606ca5c2849132c"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/ge_01/ge_01_04.jpeg",
+      "bytes": 19904,
+      "sha256": "7c7f8f676504bca1c5f44ce003d15856d195dea2e73a5c74bf051899ee5fa24b"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/ge_01/ge_01_05.jpeg",
+      "bytes": 21304,
+      "sha256": "485bbfc9ca9cdd6144e2a38e43d0d25b133fbe526feea608adf998e74beccda3"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/ge_01/ge_01_06.jpeg",
+      "bytes": 23286,
+      "sha256": "5b5464cc45b79b2172ba1837a4adb48621af04d655691cdc920ec2c998456397"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/ge_01/ge_01_07.jpeg",
+      "bytes": 21152,
+      "sha256": "b72444969d874be3b56f9a998f080110386b8ba75c62cefc606b19273436ce46"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/ge_01/ge_01_08.jpeg",
+      "bytes": 20126,
+      "sha256": "b58d1be3278a8b6316f2c8dde2fccbcfb98e923698d55361e63c34a8bdfc41ef"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/ge_01/ge_01_09.jpeg",
+      "bytes": 76420,
+      "sha256": "51621bdefc7a375745564d6eed709ed03afde6c65118e331a9d035f1594226f0"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/ge_01/ge_01_10.jpeg",
+      "bytes": 83361,
+      "sha256": "927fb71f4bf034ef48693ef1258371ef00e2b6bc16d3a4a42b97953c70743d65"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/jm_01/jm_01_01.jpg",
+      "bytes": 108238,
+      "sha256": "9db5109d77f8097d38cc4ffb5d29e0c0d17a04fb6c18b8cd0f5bc519cbf332d7"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/jm_01/jm_01_02.jpg",
+      "bytes": 91573,
+      "sha256": "607f9f2e852fd6a38a60cb55534ba836fd4ab0638e66b209512e6b2a60a428f0"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/jm_01/jm_01_03.jpg",
+      "bytes": 172892,
+      "sha256": "4ec63a951fffb288aaeb15e5f32f4cc6507b6120208b392af210415f591c7255"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/jm_01/jm_01_04.jpg",
+      "bytes": 97058,
+      "sha256": "f067af549a59511239f8b079817194261ca1f447fcd12cb018a31e8b8df86caf"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/jm_01/jm_01_05.jpg",
+      "bytes": 86703,
+      "sha256": "e5d306294465931bf9997d0161f3af15d1e0ba0ca4abfbf6fdd4cc3627c57ff1"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/jm_01/jm_01_06.jpg",
+      "bytes": 114125,
+      "sha256": "d58d3246a3e1213adba29a14f8d3be848079f36d704c953a3996c1eb2e460e2b"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/jm_01/jm_01_07.jpg",
+      "bytes": 91903,
+      "sha256": "11738b3b095640e5b11a10cbba389d3a9cae87aa1ccd8c4a61908c2c51ea9efd"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/jm_01/jm_01_08.jpg",
+      "bytes": 112963,
+      "sha256": "465fa9ce3599396c5162c08e20f2ed8530fccf5370b1f51aa97a7e96be007828"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/jm_01/jm_01_09.jpg",
+      "bytes": 101253,
+      "sha256": "2afc15f16ea36039c005e2efe3e9eb50277546dcbe98bdb3f9dd34c11f89a4a5"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/jm_01/jm_01_10.jpg",
+      "bytes": 87156,
+      "sha256": "ee16026fa629f6acbea24addcf0419cd5762fdc82dbc23f3afaaf6eccda0da0a"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/la_01/la_01_01.jpg",
+      "bytes": 153651,
+      "sha256": "1d18839145b17bf832be698acc70d935453356cbea4894ea4e45690f16dc34e8"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/la_01/la_01_02.jpg",
+      "bytes": 150345,
+      "sha256": "69a32f52dbda77b641e08e76372bda66e4ecb8801184b704439aee6e1da889b9"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/la_01/la_01_03.jpg",
+      "bytes": 210619,
+      "sha256": "79b612324753a0ae4a72e1f492291352bf88fa90e79c712304d30a499f8b64e4"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/la_01/la_01_04.jpg",
+      "bytes": 134969,
+      "sha256": "4a0b3102ac36fe9286a2ca2bbab87cbcad8ae8186bdce97c5eb0dc68638bfb8e"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/la_01/la_01_05.jpg",
+      "bytes": 157147,
+      "sha256": "160130602b04cf9fcc9a72f13d1d50fc558f0c7d452e003c3fc1482b3f5a12b9"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/la_01/la_01_06.jpg",
+      "bytes": 162186,
+      "sha256": "0b77711a4baf21082a5bbca5e7f12f3888fcb67736749bd353c83caafa219c8e"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/la_01/la_01_07.jpg",
+      "bytes": 148063,
+      "sha256": "644e8c13308dd8605621cfd150aeed9625edfa841fb80bc0af7c18c8f0e33838"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/la_01/la_01_08.jpg",
+      "bytes": 160738,
+      "sha256": "8eb411478395eae6f684b39ce8fa7f9dc8d5227fba67bc9969a2557a3d93a784"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/la_01/la_01_09.jpg",
+      "bytes": 158371,
+      "sha256": "9517d5df62648ad8d2154c2d002acdb9815c0477269d3b0644ba8b2d52254b6f"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/mf_01/mf_01_01.jpg",
+      "bytes": 76401,
+      "sha256": "ae3df90eda7b37ed7773d30d72ee027753bfce595e6ad0680f45131935d90faf"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/mf_01/mf_01_02.jpg",
+      "bytes": 117448,
+      "sha256": "7924d08dafbd355f7e32bccf61886e139c57d687a59f2f07ea3e6aacd1b8b495"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/mf_01/mf_01_03.jpg",
+      "bytes": 89220,
+      "sha256": "a383a74f6a3ca9e5dce35251d287ad7e08dcb5b4bb774864f512836415baf5bf"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/mf_01/mf_01_05.jpg",
+      "bytes": 84487,
+      "sha256": "d887fe75ebddc0d1e6e31e17c6d8b7d654635ffe53fe239ec79ac9660abe8d67"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/mf_01/mf_01_06.jpg",
+      "bytes": 87483,
+      "sha256": "c69d2cec039c681e0086b17629306843c751e3eaadb4e186105215f97d7c328d"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/mf_01/mf_01_07.jpg",
+      "bytes": 92008,
+      "sha256": "6dd8cd6d14f32d90015f54c7a677f77c440b4fb4b212c954d4a62a6b0f8f96cb"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/mf_01/mf_01_08.jpg",
+      "bytes": 100330,
+      "sha256": "3a2f865ec6773947f6c753a8df2d149f7338b2756b478c81535eed6fc105eccc"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/mf_01/mf_01_09.jpg",
+      "bytes": 80251,
+      "sha256": "5c781ee01e2e2205e4ea5a0676e7d3ec7652d2a800cb6119f340f230fa8a4e09"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/mf_01/mf_01_10.jpg",
+      "bytes": 91525,
+      "sha256": "1fb3db2aa84081e3e71a509f8634f01b23dd4474c979d0d1029a540148aac886"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/nc_01/nc_01_01.jpg",
+      "bytes": 98765,
+      "sha256": "cc60281d7e61d370beedf5e80e612113e532dd6022f3562a3af8f5156f9ab0d9"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/nc_01/nc_01_02.jpg",
+      "bytes": 109660,
+      "sha256": "36b134d80d6dcd6eb4912408b47f147a4550b4ed74d4ea0f984367a02bd00af6"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/nc_01/nc_01_03.jpg",
+      "bytes": 148058,
+      "sha256": "e08b07565d635bd007304f753868f0d14c06c4da9d3ded820da396bb81dcbc75"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/nc_01/nc_01_04.jpg",
+      "bytes": 131879,
+      "sha256": "e6a3a315bc703b2aa643aa8d7ce6c383878d67fd261b0424cdda3d19513f6836"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/nc_01/nc_01_05.jpg",
+      "bytes": 139925,
+      "sha256": "1a660b91f03a351a2a3debe222d0e96288596d50681e54d6bdecd826b8b3918b"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/nc_01/nc_01_06.jpg",
+      "bytes": 102728,
+      "sha256": "7492b54febc8cc5703975da9198ed54b4466b449c043619274d47549fe438e63"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/nc_01/nc_01_07.jpg",
+      "bytes": 108062,
+      "sha256": "93791b2b138cdcae552b4f2761e5a846ee33677e5de86cf67a13e08bc6bba96d"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/nc_01/nc_01_08.jpg",
+      "bytes": 103887,
+      "sha256": "7690c7bace1e5759aaf42547d7e40abd64b6d2656ed44ffe88494c76c64c5ffe"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/nc_01/nc_01_09.jpg",
+      "bytes": 161169,
+      "sha256": "4d682d528c00869ebaf0b0114854af9e327e489ee03c27be32afc355ce87a538"
+    },
+    {
+      "ruta": "proyecto-dataset-vision/data/images/nc_01/nc_01_10.jpg",
+      "bytes": 162564,
+      "sha256": "1d115ed935e3e55454a4c4388dabdfda4a31d6c164c0928e2a068f2d5c72937e"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Benjamin Palma/Benjamin Palma (1).jpeg",
+      "bytes": 173536,
+      "sha256": "f9648af2a65180cc8825f723d6f5010269cbf53b6d2b6033c73df3a4f116acfd"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Benjamin Palma/Benjamin Palma (10).jpeg",
+      "bytes": 169448,
+      "sha256": "31587e7301f41f8eac53f8d5cd42bca75f22886671ef319d4ccb72bb82d0fcb8"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Benjamin Palma/Benjamin Palma (2).jpeg",
+      "bytes": 157980,
+      "sha256": "87ca6245c165ba0220971830ab1ca08f588d5c5cfd6856f373a6ae3442073a45"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Benjamin Palma/Benjamin Palma (3).jpeg",
+      "bytes": 185514,
+      "sha256": "afe78a1aa49a5297476dde38e864f7e08b3920193016230ab3f79b69678b45df"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Benjamin Palma/Benjamin Palma (4).jpeg",
+      "bytes": 182277,
+      "sha256": "8e0fcdda0af98698f78bb092be2346a28d2a9803edcf350baa48db7adf4f03b3"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Benjamin Palma/Benjamin Palma (5).jpeg",
+      "bytes": 181524,
+      "sha256": "207340433e210c5c5199b44e4c072029d509a1b912e57a1664360c39f681bc9a"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Benjamin Palma/Benjamin Palma (6).jpeg",
+      "bytes": 177047,
+      "sha256": "6d5a5a23676a0d01922d287eacd51f2fc4a6c490dacec9131937e0f96ae17e19"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Benjamin Palma/Benjamin Palma (7).jpeg",
+      "bytes": 176333,
+      "sha256": "f1a9523866c5722cbe62f352e3089e419a4d92020b0e2995455e7e1105f580c6"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Benjamin Palma/Benjamin Palma (8).jpeg",
+      "bytes": 177920,
+      "sha256": "321c84cd8cb5824bf7dc7348e71abd9511c91b98d1eb86a66a8fa385024aba05"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Benjamin Palma/Benjamin Palma (9).jpeg",
+      "bytes": 183418,
+      "sha256": "f6bccb069e309bc6231a037146ec9f87bbd93654f8af4673b3eb6cdac4e11423"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Carlos Vasquez/Carlos Vasquez (1).jpeg",
+      "bytes": 156779,
+      "sha256": "54d608a07d4d1d0e0dd4676e34d7fdc569d09fad85434d6774e7afcb4b906007"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Carlos Vasquez/Carlos Vasquez (10).jpeg",
+      "bytes": 126713,
+      "sha256": "a4376e32474417809e35f1e2e4b4110893502d7b6903811f3344be3e46de399a"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Carlos Vasquez/Carlos Vasquez (2).jpeg",
+      "bytes": 144391,
+      "sha256": "db3a79868020a289d7b7683469156271783528aa2c8dead9eff3d7a3f8a371ac"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Carlos Vasquez/Carlos Vasquez (3).jpeg",
+      "bytes": 124023,
+      "sha256": "9c2b3b62e9779c2b19e015730ca390e1df16e4a82c3d58ab8bdabb321242687a"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Carlos Vasquez/Carlos Vasquez (4).jpeg",
+      "bytes": 148420,
+      "sha256": "6444b56662c36e6c1faa78c4f56b1cf564d4fd9e786160dbb67601770d052e89"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Carlos Vasquez/Carlos Vasquez (5).jpeg",
+      "bytes": 104079,
+      "sha256": "a968273d7becc83a6158da96e9ef23890dbb2c763350beebb0ae79b2878c9e3d"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Carlos Vasquez/Carlos Vasquez (6).jpeg",
+      "bytes": 135164,
+      "sha256": "bb8f338553b9056a9ae29a75286aa597392906c7e5ab1dfb8261938f551f446f"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Carlos Vasquez/Carlos Vasquez (7).jpeg",
+      "bytes": 134907,
+      "sha256": "cd41749a879c0ae65a55e9eb8e90ff8cbbbf295c319245fbe2904627d23d5c7a"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Carlos Vasquez/Carlos Vasquez (8).jpeg",
+      "bytes": 117430,
+      "sha256": "955ca340bfc14e3e594d1592d4e38e4d49ca2f08522d0d099e793bd5a4eca44a"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Carlos Vasquez/Carlos Vasquez (9).jpeg",
+      "bytes": 122562,
+      "sha256": "a352244fc2b4e8e2ec47dac09620dcedd9a121b822d1774e3bdca14369494178"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Fabian Verasay/Fabian Verasay (1).jpeg",
+      "bytes": 75094,
+      "sha256": "1fb135f1d3e9f9266c0b59d3143dd47ac4c893280cef8aaa1a6d0a0adc0c2c59"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Fabian Verasay/Fabian Verasay (10).jpeg",
+      "bytes": 82599,
+      "sha256": "6e946114796239393c272c5edb7ff79f46844194c4e95974c45c65f58d506277"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Fabian Verasay/Fabian Verasay (2).jpeg",
+      "bytes": 46283,
+      "sha256": "1d387fb70215d2bb3bc08a3caa7ba2a1c69882011ba66756ea3b61316fd5dcf0"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Fabian Verasay/Fabian Verasay (3).jpeg",
+      "bytes": 55513,
+      "sha256": "42819d951114c16e7236e7f4d0178c3b5c6d15625a012d9ca04a54fb4567f24e"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Fabian Verasay/Fabian Verasay (4).jpeg",
+      "bytes": 71413,
+      "sha256": "04e6f465f5e96780c7749eeff5ad7b728e5bc4e0b600ee7a294f8a5980228042"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Fabian Verasay/Fabian Verasay (5).jpeg",
+      "bytes": 68878,
+      "sha256": "4fea5a34447c5f1bb4061dd5108fbfd251e08fdf1ecdeed4861792bdbb1d2d49"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Fabian Verasay/Fabian Verasay (6).jpeg",
+      "bytes": 83081,
+      "sha256": "62b13295c2eddf3989a954f4ba0bbb1b3cb82ac47c48acda231e14e162227a83"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Fabian Verasay/Fabian Verasay (7).jpeg",
+      "bytes": 51870,
+      "sha256": "d31a8c448770f91cd54c03cecf456b9527b1ad3e01465d467b4cf84b69560013"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Fabian Verasay/Fabian Verasay (8).jpeg",
+      "bytes": 64755,
+      "sha256": "f14ba520b07a36b75c6caead7ad587ddc3ecbdfb7a365da001ef3aac6bfc4b87"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Fabian Verasay/Fabian Verasay (9).jpeg",
+      "bytes": 53230,
+      "sha256": "e734127c91e51258490b11b2073c6901016fd02da551e97878f0cb87d2590c78"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Francisco Quintana/Francisco Quintana (1).jpeg",
+      "bytes": 49170,
+      "sha256": "7eb12e434b27111e1108affa4ff5b6e5aa4975c571e6130141272f19fd237547"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Francisco Quintana/Francisco Quintana (10).jpeg",
+      "bytes": 49875,
+      "sha256": "552669d4803058ac61e079ddae5246850be1e6a6611a908184decc187477ffaf"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Francisco Quintana/Francisco Quintana (2).jpeg",
+      "bytes": 50426,
+      "sha256": "b5fb8fb4967391e4e285c151daa3ac8a98c7bcd50274d88dfdaf49f701b5b19a"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Francisco Quintana/Francisco Quintana (3).jpeg",
+      "bytes": 50412,
+      "sha256": "28dea5db16a0b8a8725069f6ee6cfde53f1067f3bb6d037376b8db599c247f49"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Francisco Quintana/Francisco Quintana (4).jpeg",
+      "bytes": 49319,
+      "sha256": "d46a32b4e80fae00b680be10fdf6b30c39086b20e49af6e0c79f2b490f7e8e55"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Francisco Quintana/Francisco Quintana (5).jpeg",
+      "bytes": 49932,
+      "sha256": "375335f0526ffe3c71fb10c0866549fc837935d3985bee4ca696b68dccee1819"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Francisco Quintana/Francisco Quintana (6).jpeg",
+      "bytes": 48938,
+      "sha256": "45db6a8870ea5303d3a9848c5dce6e4d1b97aa829e040fc1b1d57d6532d27a98"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Francisco Quintana/Francisco Quintana (7).jpeg",
+      "bytes": 49411,
+      "sha256": "8310da0e1921eb353ff2f9ed601d43a03c0563007d24a01e154e2ce4bc02d738"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Francisco Quintana/Francisco Quintana (8).jpeg",
+      "bytes": 48459,
+      "sha256": "97e367a954606eb2b272e9e11f188ab45ffa776167fd8968db165733f0eb31d0"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Francisco Quintana/Francisco Quintana (9).jpeg",
+      "bytes": 48936,
+      "sha256": "012926d8ee7c68d6ecb338b8dcb661605a5ad339396d3dfb6bc8511d450e1ba2"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Gustavo Espinoza/Gustavo Espinoza (1).jpeg",
+      "bytes": 23286,
+      "sha256": "5b5464cc45b79b2172ba1837a4adb48621af04d655691cdc920ec2c998456397"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Gustavo Espinoza/Gustavo Espinoza (10).jpeg",
+      "bytes": 83361,
+      "sha256": "927fb71f4bf034ef48693ef1258371ef00e2b6bc16d3a4a42b97953c70743d65"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Gustavo Espinoza/Gustavo Espinoza (2).jpeg",
+      "bytes": 21152,
+      "sha256": "b72444969d874be3b56f9a998f080110386b8ba75c62cefc606b19273436ce46"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Gustavo Espinoza/Gustavo Espinoza (3).jpeg",
+      "bytes": 20126,
+      "sha256": "b58d1be3278a8b6316f2c8dde2fccbcfb98e923698d55361e63c34a8bdfc41ef"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Gustavo Espinoza/Gustavo Espinoza (4).jpeg",
+      "bytes": 22999,
+      "sha256": "c6dead8fef4c581ffc3653861ca74920c52a989d17de1c366c9ed20f6bb0a533"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Gustavo Espinoza/Gustavo Espinoza (5).jpeg",
+      "bytes": 19503,
+      "sha256": "cb9cd8848c3242758ec73d175b72b10bcb415536c6a5a55dccc5227996c14316"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Gustavo Espinoza/Gustavo Espinoza (6).jpeg",
+      "bytes": 20520,
+      "sha256": "7f7e033435b4fd2d01380d37ae16256b6b84abdd1cd58846c606ca5c2849132c"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Gustavo Espinoza/Gustavo Espinoza (7).jpeg",
+      "bytes": 19904,
+      "sha256": "7c7f8f676504bca1c5f44ce003d15856d195dea2e73a5c74bf051899ee5fa24b"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Gustavo Espinoza/Gustavo Espinoza (8).jpeg",
+      "bytes": 21304,
+      "sha256": "485bbfc9ca9cdd6144e2a38e43d0d25b133fbe526feea608adf998e74beccda3"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Gustavo Espinoza/Gustavo Espinoza (9).jpeg",
+      "bytes": 76420,
+      "sha256": "51621bdefc7a375745564d6eed709ed03afde6c65118e331a9d035f1594226f0"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Javier Montupil/Javier Montupil (1).jpeg",
+      "bytes": 108238,
+      "sha256": "9db5109d77f8097d38cc4ffb5d29e0c0d17a04fb6c18b8cd0f5bc519cbf332d7"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Javier Montupil/Javier Montupil (10).jpeg",
+      "bytes": 172892,
+      "sha256": "4ec63a951fffb288aaeb15e5f32f4cc6507b6120208b392af210415f591c7255"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Javier Montupil/Javier Montupil (2).jpeg",
+      "bytes": 86703,
+      "sha256": "e5d306294465931bf9997d0161f3af15d1e0ba0ca4abfbf6fdd4cc3627c57ff1"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Javier Montupil/Javier Montupil (3).jpeg",
+      "bytes": 97058,
+      "sha256": "f067af549a59511239f8b079817194261ca1f447fcd12cb018a31e8b8df86caf"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Javier Montupil/Javier Montupil (4).jpeg",
+      "bytes": 101253,
+      "sha256": "2afc15f16ea36039c005e2efe3e9eb50277546dcbe98bdb3f9dd34c11f89a4a5"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Javier Montupil/Javier Montupil (5).jpeg",
+      "bytes": 91573,
+      "sha256": "607f9f2e852fd6a38a60cb55534ba836fd4ab0638e66b209512e6b2a60a428f0"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Javier Montupil/Javier Montupil (6).jpeg",
+      "bytes": 91903,
+      "sha256": "11738b3b095640e5b11a10cbba389d3a9cae87aa1ccd8c4a61908c2c51ea9efd"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Javier Montupil/Javier Montupil (7).jpeg",
+      "bytes": 112963,
+      "sha256": "465fa9ce3599396c5162c08e20f2ed8530fccf5370b1f51aa97a7e96be007828"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Javier Montupil/Javier Montupil (8).jpeg",
+      "bytes": 114125,
+      "sha256": "d58d3246a3e1213adba29a14f8d3be848079f36d704c953a3996c1eb2e460e2b"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Javier Montupil/Javier Montupil (9).jpeg",
+      "bytes": 87156,
+      "sha256": "ee16026fa629f6acbea24addcf0419cd5762fdc82dbc23f3afaaf6eccda0da0a"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Luciano Alcantara/Luciano Alcantara (1).jpeg",
+      "bytes": 160738,
+      "sha256": "8eb411478395eae6f684b39ce8fa7f9dc8d5227fba67bc9969a2557a3d93a784"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Luciano Alcantara/Luciano Alcantara (10).jpeg",
+      "bytes": 150345,
+      "sha256": "69a32f52dbda77b641e08e76372bda66e4ecb8801184b704439aee6e1da889b9"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Luciano Alcantara/Luciano Alcantara (2).jpeg",
+      "bytes": 156534,
+      "sha256": "7de1196916e58627d42d976e24cdfa9f0ab13ce34255e06c980e68966f60a281"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Luciano Alcantara/Luciano Alcantara (3).jpeg",
+      "bytes": 134969,
+      "sha256": "4a0b3102ac36fe9286a2ca2bbab87cbcad8ae8186bdce97c5eb0dc68638bfb8e"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Luciano Alcantara/Luciano Alcantara (4).jpeg",
+      "bytes": 153651,
+      "sha256": "1d18839145b17bf832be698acc70d935453356cbea4894ea4e45690f16dc34e8"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Luciano Alcantara/Luciano Alcantara (5).jpeg",
+      "bytes": 158371,
+      "sha256": "9517d5df62648ad8d2154c2d002acdb9815c0477269d3b0644ba8b2d52254b6f"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Luciano Alcantara/Luciano Alcantara (6).jpeg",
+      "bytes": 148063,
+      "sha256": "644e8c13308dd8605621cfd150aeed9625edfa841fb80bc0af7c18c8f0e33838"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Luciano Alcantara/Luciano Alcantara (7).jpeg",
+      "bytes": 162186,
+      "sha256": "0b77711a4baf21082a5bbca5e7f12f3888fcb67736749bd353c83caafa219c8e"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Luciano Alcantara/Luciano Alcantara (8).jpeg",
+      "bytes": 210619,
+      "sha256": "79b612324753a0ae4a72e1f492291352bf88fa90e79c712304d30a499f8b64e4"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Luciano Alcantara/Luciano Alcantara (9).jpeg",
+      "bytes": 157147,
+      "sha256": "160130602b04cf9fcc9a72f13d1d50fc558f0c7d452e003c3fc1482b3f5a12b9"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Matias Figueroa/Matias Figueroa (1).jpeg",
+      "bytes": 89220,
+      "sha256": "a383a74f6a3ca9e5dce35251d287ad7e08dcb5b4bb774864f512836415baf5bf"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Matias Figueroa/Matias Figueroa (10).jpeg",
+      "bytes": 81582,
+      "sha256": "c227cc85ae06b1948d80d0bd64f1b21c2b54c1607e4daa82689ccdd3386cf61f"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Matias Figueroa/Matias Figueroa (2).jpeg",
+      "bytes": 100330,
+      "sha256": "3a2f865ec6773947f6c753a8df2d149f7338b2756b478c81535eed6fc105eccc"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Matias Figueroa/Matias Figueroa (3).jpeg",
+      "bytes": 117448,
+      "sha256": "7924d08dafbd355f7e32bccf61886e139c57d687a59f2f07ea3e6aacd1b8b495"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Matias Figueroa/Matias Figueroa (4).jpeg",
+      "bytes": 92008,
+      "sha256": "6dd8cd6d14f32d90015f54c7a677f77c440b4fb4b212c954d4a62a6b0f8f96cb"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Matias Figueroa/Matias Figueroa (5).jpeg",
+      "bytes": 84487,
+      "sha256": "d887fe75ebddc0d1e6e31e17c6d8b7d654635ffe53fe239ec79ac9660abe8d67"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Matias Figueroa/Matias Figueroa (6).jpeg",
+      "bytes": 80251,
+      "sha256": "5c781ee01e2e2205e4ea5a0676e7d3ec7652d2a800cb6119f340f230fa8a4e09"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Matias Figueroa/Matias Figueroa (7).jpeg",
+      "bytes": 76401,
+      "sha256": "ae3df90eda7b37ed7773d30d72ee027753bfce595e6ad0680f45131935d90faf"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Matias Figueroa/Matias Figueroa (8).jpeg",
+      "bytes": 87483,
+      "sha256": "c69d2cec039c681e0086b17629306843c751e3eaadb4e186105215f97d7c328d"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Matias Figueroa/Matias Figueroa (9).jpeg",
+      "bytes": 91525,
+      "sha256": "1fb3db2aa84081e3e71a509f8634f01b23dd4474c979d0d1029a540148aac886"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Nicolas Cuevas/WhatsApp Image 2026-08-25 at 10.51.40 AM.jpeg",
+      "bytes": 162564,
+      "sha256": "1d115ed935e3e55454a4c4388dabdfda4a31d6c164c0928e2a068f2d5c72937e"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Nicolas Cuevas/WhatsApp Image 2026-08-25 at 10.51.41 AM (1).jpeg",
+      "bytes": 102728,
+      "sha256": "7492b54febc8cc5703975da9198ed54b4466b449c043619274d47549fe438e63"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Nicolas Cuevas/WhatsApp Image 2026-08-25 at 10.51.41 AM (2).jpeg",
+      "bytes": 98765,
+      "sha256": "cc60281d7e61d370beedf5e80e612113e532dd6022f3562a3af8f5156f9ab0d9"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Nicolas Cuevas/WhatsApp Image 2026-08-25 at 10.51.41 AM.jpeg",
+      "bytes": 139925,
+      "sha256": "1a660b91f03a351a2a3debe222d0e96288596d50681e54d6bdecd826b8b3918b"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Nicolas Cuevas/WhatsApp Image 2026-08-25 at 10.51.42 AM (1).jpeg",
+      "bytes": 148058,
+      "sha256": "e08b07565d635bd007304f753868f0d14c06c4da9d3ded820da396bb81dcbc75"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Nicolas Cuevas/WhatsApp Image 2026-08-25 at 10.51.42 AM (2).jpeg",
+      "bytes": 108062,
+      "sha256": "93791b2b138cdcae552b4f2761e5a846ee33677e5de86cf67a13e08bc6bba96d"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Nicolas Cuevas/WhatsApp Image 2026-08-25 at 10.51.42 AM.jpeg",
+      "bytes": 109660,
+      "sha256": "36b134d80d6dcd6eb4912408b47f147a4550b4ed74d4ea0f984367a02bd00af6"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Nicolas Cuevas/WhatsApp Image 2026-08-25 at 10.51.43 AM (1).jpeg",
+      "bytes": 131879,
+      "sha256": "e6a3a315bc703b2aa643aa8d7ce6c383878d67fd261b0424cdda3d19513f6836"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Nicolas Cuevas/WhatsApp Image 2026-08-25 at 10.51.43 AM (2).jpeg",
+      "bytes": 161169,
+      "sha256": "4d682d528c00869ebaf0b0114854af9e327e489ee03c27be32afc355ce87a538"
+    },
+    {
+      "ruta": "dataset_pr5/dataset_raw/Nicolas Cuevas/WhatsApp Image 2026-08-25 at 10.51.43 AM.jpeg",
+      "bytes": 103887,
+      "sha256": "7690c7bace1e5759aaf42547d7e40abd64b6d2656ed44ffe88494c76c64c5ffe"
+    },
+    {
+      "ruta": "cuarentena_duplicados/conflictos_zip_8ac7125f19c74e5997a8ccd8c851afbc/manifiesto.json",
+      "bytes": 1680,
+      "sha256": "2ee0156a0d1b0ddb51acd41a9b87de074c55102ebe770873de4402a0c679f24f"
+    },
+    {
+      "ruta": "cuarentena_duplicados/conflictos_zip_8ac7125f19c74e5997a8ccd8c851afbc/la_01/la_01_10.jpg",
+      "bytes": 156534,
+      "sha256": "7de1196916e58627d42d976e24cdfa9f0ab13ce34255e06c980e68966f60a281"
+    },
+    {
+      "ruta": "cuarentena_duplicados/conflictos_zip_8ac7125f19c74e5997a8ccd8c851afbc/mf_01/mf_01_04.jpg",
+      "bytes": 156534,
+      "sha256": "7de1196916e58627d42d976e24cdfa9f0ab13ce34255e06c980e68966f60a281"
+    },
+    {
+      "ruta": "cuarentena_duplicados/plantilla_main_36bda37023884901b8a445cf0d3db644/persona001/foto_prueba_1.jpg",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "ruta": "cuarentena_duplicados/plantilla_main_36bda37023884901b8a445cf0d3db644/persona001/foto_prueba_2.jpg",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "ruta": "cuarentena_duplicados/plantilla_main_36bda37023884901b8a445cf0d3db644/persona001/foto_prueba_3.jpg",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "ruta": "cuarentena_duplicados/plantilla_main_36bda37023884901b8a445cf0d3db644/persona002/foto_prueba_1.jpg",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "ruta": "cuarentena_duplicados/plantilla_main_36bda37023884901b8a445cf0d3db644/persona002/foto_prueba_2.jpg",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "ruta": "cuarentena_duplicados/plantilla_main_36bda37023884901b8a445cf0d3db644/persona002/foto_prueba_3.jpg",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "ruta": "COMO_GUARDAR_Y_RESTAURAR.md",
+      "bytes": 2373,
+      "sha256": "abe5961ffaa7d62c9f3f69b4deb0624829a338c12ff46511fd0f4ae415687fa0"
+    },
+    {
+      "ruta": "descargar_integracion.ps1",
+      "bytes": 3355,
+      "sha256": "ab72deb99301b5aa1e0f1818f04592336942165141b5c1a31e707a6429e84d70"
+    },
+    {
+      "ruta": "guardar_respaldo.py",
+      "bytes": 3781,
+      "sha256": "17f86859202b5af31d707f608a916d45ef5f635dc02dd099ad7d75299f6a09d1"
+    },
+    {
+      "ruta": "INSTALACION_INTEGRACION.md",
+      "bytes": 20875,
+      "sha256": "dd8b5bb9550435c42a47604f393d72a739777707fe83c8484fa613cacc966523"
+    },
+    {
+      "ruta": "MEJORAS_RECONOCIMIENTO.md",
+      "bytes": 6171,
+      "sha256": "6bd6295902f7f46137bd15f6c73cb2e969756709b9f771235cd1614bd8a00e30"
+    },
+    {
+      "ruta": "preparar_github.py",
+      "bytes": 2961,
+      "sha256": "323a37b38360e355b88a1239d82ed80fd93d8764d9411f03c35ce89d9fdbf3ac"
+    }
+  ],
+  "ajustes_exportacion": {
+    "proyecto-dataset-vision/data/.gitignore": "Se incluyen las 88 fotos locales como archivos normales en Git; el original permanece intacto."
+  }
+}

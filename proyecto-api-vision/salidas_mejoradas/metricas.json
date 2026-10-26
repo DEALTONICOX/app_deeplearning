@@ -1,0 +1,70 @@
+{
+  "imagenes": 88,
+  "personas": 9,
+  "rostros_detectados": 87,
+  "accuracy_validacion_cruzada": 0.9886363636363636,
+  "f1_macro": 0.9934640522875817,
+  "conocidos_correctos_aceptados": 0.9772727272727273,
+  "conocidos_aceptados_erroneamente": 0.0,
+  "desconocidos_simulados_rechazados": 0.9886363636363636,
+  "pliegues": [
+    {
+      "accuracy": 1.0,
+      "calibracion_solo_entrenamiento": {
+        "umbral_confianza": 0.504030303030303,
+        "margen_minimo": 0.15,
+        "falsa_aceptacion_calibracion": 0.0,
+        "conocidos_correctos_aceptados_calibracion": 0.9855072463768116
+      }
+    },
+    {
+      "accuracy": 1.0,
+      "calibracion_solo_entrenamiento": {
+        "umbral_confianza": 0.5094545454545454,
+        "margen_minimo": 0.15,
+        "falsa_aceptacion_calibracion": 0.0,
+        "conocidos_correctos_aceptados_calibracion": 0.9855072463768116
+      }
+    },
+    {
+      "accuracy": 1.0,
+      "calibracion_solo_entrenamiento": {
+        "umbral_confianza": 0.5094545454545454,
+        "margen_minimo": 0.15,
+        "falsa_aceptacion_calibracion": 0.0,
+        "conocidos_correctos_aceptados_calibracion": 1.0
+      }
+    },
+    {
+      "accuracy": 0.9411764705882353,
+      "calibracion_solo_entrenamiento": {
+        "umbral_confianza": 0.4986060606060606,
+        "margen_minimo": 0.15,
+        "falsa_aceptacion_calibracion": 0.0,
+        "conocidos_correctos_aceptados_calibracion": 0.9859154929577465
+      }
+    },
+    {
+      "accuracy": 1.0,
+      "calibracion_solo_entrenamiento": {
+        "umbral_confianza": 0.46606060606060606,
+        "margen_minimo": 0.15,
+        "falsa_aceptacion_calibracion": 0.0,
+        "conocidos_correctos_aceptados_calibracion": 0.9857142857142858
+      }
+    }
+  ],
+  "calibracion_final": {
+    "umbral_confianza": 0.5094545454545454,
+    "margen_minimo": 0.15,
+    "falsa_aceptacion_calibracion": 0.0,
+    "conocidos_correctos_aceptados_calibracion": 0.9885057471264368
+  },
+  "limitacion": "Fotos del ZIP; no es una evaluación de nuevas sesiones de cámara ni desconocidos externos.",
+  "fallos_deteccion": [
+    {
+      "ruta": "..\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_04.jpg",
+      "motivo": "sin_rostro"
+    }
+  ]
+}

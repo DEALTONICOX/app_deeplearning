@@ -1,0 +1,10 @@
+{
+  "forma_entrada": [
+    128,
+    128,
+    3
+  ],
+  "umbral_confianza": 0.7666187050359712,
+  "numero_clases": 9,
+  "epocas": 120
+}

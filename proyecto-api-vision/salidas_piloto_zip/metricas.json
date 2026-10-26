@@ -1,0 +1,82 @@
+{
+  "imagenes": 88,
+  "personas": 9,
+  "rostro_detectado": 72,
+  "validacion_cruzada": {
+    "accuracy_global": 0.8295454545454546,
+    "accuracy_por_pliegue": [
+      0.7222222222222222,
+      0.9444444444444444,
+      0.7777777777777778,
+      0.8235294117647058,
+      0.8823529411764706
+    ],
+    "accuracy_media": 0.8300653594771241,
+    "accuracy_desviacion": 0.07774756374751841,
+    "precision_macro": 0.8345790012456679,
+    "recall_macro": 0.825925925925926,
+    "f1_macro": 0.8187374495984897,
+    "por_persona": {
+      "Benjamin Palma": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "imagenes": 10
+      },
+      "Carlos Vasquez": {
+        "precision": 0.7272727272727273,
+        "recall": 0.8,
+        "f1": 0.7619047619047619,
+        "imagenes": 10
+      },
+      "Francisco Quintana": {
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091,
+        "imagenes": 10
+      },
+      "Fabian Verasay": {
+        "precision": 0.9090909090909091,
+        "recall": 1.0,
+        "f1": 0.9523809523809523,
+        "imagenes": 10
+      },
+      "Gustavo Espinoza": {
+        "precision": 0.6923076923076923,
+        "recall": 0.9,
+        "f1": 0.782608695652174,
+        "imagenes": 10
+      },
+      "Javier Montupil": {
+        "precision": 0.5714285714285714,
+        "recall": 0.4,
+        "f1": 0.47058823529411764,
+        "imagenes": 10
+      },
+      "Luciano Alcantara": {
+        "precision": 0.7777777777777778,
+        "recall": 0.7777777777777778,
+        "f1": 0.7777777777777778,
+        "imagenes": 9
+      },
+      "Matias Figueroa": {
+        "precision": 1.0,
+        "recall": 0.5555555555555556,
+        "f1": 0.7142857142857143,
+        "imagenes": 9
+      },
+      "Nicolas Cuevas": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "imagenes": 10
+      }
+    }
+  },
+  "rechazo_desconocidos": {
+    "umbral": 0.8658992805755394,
+    "conocidos_aceptados_correctos": 0.6597222222222222,
+    "desconocidos_rechazados": 0.9090909090909091,
+    "puntaje_balanceado": 0.7844065656565656
+  }
+}

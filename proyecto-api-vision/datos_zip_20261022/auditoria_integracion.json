@@ -1,0 +1,828 @@
+{
+  "imagenes": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images",
+  "csv": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\sujetos.csv",
+  "errores": [
+    "Falta carpeta: bg_01 (Benjamin Galvez).",
+    "bg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: id_01 (Israel Diaz).",
+    "id_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mr_01 (Maximiliano Ramos).",
+    "mr_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: sf_01 (Samuel Fuenzalida).",
+    "sf_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ag_01 (Aracely Garrido).",
+    "ag_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ba_01 (Bladimir Aguilera).",
+    "ba_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ja_01 (Julio Alcantara).",
+    "ja_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: fg_01 (Francisco Gutierrez).",
+    "fg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: sg_01 (Sergio Garrido).",
+    "sg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ih_01 (Irriana Herrera).",
+    "ih_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mg_01 (Maximiliano Garrido).",
+    "mg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: jg_01 (Joselo Garrido).",
+    "jg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: tg_01 (Tomas Garrido).",
+    "tg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: bf_01 (Benjamin Flores).",
+    "bf_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mf_02 (Michelle Ferraro).",
+    "mf_02: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: vm_01 (Victor Medina).",
+    "vm_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mg_02 (Manuel Garrido).",
+    "mg_02: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mc_01 (Moises Castillo).",
+    "mc_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: dg_01 (Daira Guerra).",
+    "dg_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: mv_01 (Marcela Vera).",
+    "mv_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: gr_01 (Giselle Rojas).",
+    "gr_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: me_01 (Matias Escalante).",
+    "me_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ee_01 (Elias Esveile).",
+    "ee_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: zh_01 (Zoe Herrera).",
+    "zh_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: yf_01 (Yamila Fernandez).",
+    "yf_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: zz_01 (Zaira Zuviria).",
+    "zz_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: ca_01 (Camila Alves).",
+    "ca_01: 0 fotos únicas; se necesitan al menos 5.",
+    "Falta carpeta: er_01 (Eliza Ramirez).",
+    "er_01: 0 fotos únicas; se necesitan al menos 5."
+  ],
+  "avisos": [],
+  "personas": [
+    {
+      "id_carpeta": "bg_01",
+      "nombre_normalizado": "benjamin_galvez",
+      "nombre_original": "Benjamin Galvez",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "bp_01",
+      "nombre_normalizado": "benjamin_palma",
+      "nombre_original": "Benjamin Palma",
+      "imagenes_unicas": 10
+    },
+    {
+      "id_carpeta": "cv_01",
+      "nombre_normalizado": "carlos_vasquez",
+      "nombre_original": "Carlos Vasquez",
+      "imagenes_unicas": 10
+    },
+    {
+      "id_carpeta": "fq_01",
+      "nombre_normalizado": "francisco_quintana",
+      "nombre_original": "Francisco Quintana",
+      "imagenes_unicas": 10
+    },
+    {
+      "id_carpeta": "fv_01",
+      "nombre_normalizado": "fabian_verasay",
+      "nombre_original": "Fabian Verasay",
+      "imagenes_unicas": 10
+    },
+    {
+      "id_carpeta": "ge_01",
+      "nombre_normalizado": "gustavo_espinoza",
+      "nombre_original": "Gustavo Espinoza",
+      "imagenes_unicas": 10
+    },
+    {
+      "id_carpeta": "id_01",
+      "nombre_normalizado": "israel_diaz",
+      "nombre_original": "Israel Diaz",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "jm_01",
+      "nombre_normalizado": "javier_montupil",
+      "nombre_original": "Javier Montupil",
+      "imagenes_unicas": 10
+    },
+    {
+      "id_carpeta": "la_01",
+      "nombre_normalizado": "luciano_alcantara",
+      "nombre_original": "Luciano Alcantara",
+      "imagenes_unicas": 9
+    },
+    {
+      "id_carpeta": "mf_01",
+      "nombre_normalizado": "matias_figueroa",
+      "nombre_original": "Matias Figueroa",
+      "imagenes_unicas": 9
+    },
+    {
+      "id_carpeta": "mr_01",
+      "nombre_normalizado": "maximiliano_ramos",
+      "nombre_original": "Maximiliano Ramos",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "nc_01",
+      "nombre_normalizado": "nicolas_cuevas",
+      "nombre_original": "Nicolas Cuevas",
+      "imagenes_unicas": 10
+    },
+    {
+      "id_carpeta": "sf_01",
+      "nombre_normalizado": "samuel_fuenzalida",
+      "nombre_original": "Samuel Fuenzalida",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ag_01",
+      "nombre_normalizado": "aracely_garrido",
+      "nombre_original": "Aracely Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ba_01",
+      "nombre_normalizado": "bladimir_aguilera",
+      "nombre_original": "Bladimir Aguilera",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ja_01",
+      "nombre_normalizado": "julio_alcantara",
+      "nombre_original": "Julio Alcantara",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "fg_01",
+      "nombre_normalizado": "francisco_gutierrez",
+      "nombre_original": "Francisco Gutierrez",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "sg_01",
+      "nombre_normalizado": "sergio_garrido",
+      "nombre_original": "Sergio Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ih_01",
+      "nombre_normalizado": "irriana_herrera",
+      "nombre_original": "Irriana Herrera",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mg_01",
+      "nombre_normalizado": "maximiliano_garrido",
+      "nombre_original": "Maximiliano Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "jg_01",
+      "nombre_normalizado": "joselo_garrido",
+      "nombre_original": "Joselo Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "tg_01",
+      "nombre_normalizado": "tomas_garrido",
+      "nombre_original": "Tomas Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "bf_01",
+      "nombre_normalizado": "benjamin_flores",
+      "nombre_original": "Benjamin Flores",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mf_02",
+      "nombre_normalizado": "michelle_ferraro",
+      "nombre_original": "Michelle Ferraro",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "vm_01",
+      "nombre_normalizado": "victor_medina",
+      "nombre_original": "Victor Medina",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mg_02",
+      "nombre_normalizado": "manuel_garrido",
+      "nombre_original": "Manuel Garrido",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mc_01",
+      "nombre_normalizado": "moises_castillo",
+      "nombre_original": "Moises Castillo",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "dg_01",
+      "nombre_normalizado": "daira_guerra",
+      "nombre_original": "Daira Guerra",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "mv_01",
+      "nombre_normalizado": "marcela_vera",
+      "nombre_original": "Marcela Vera",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "gr_01",
+      "nombre_normalizado": "giselle_rojas",
+      "nombre_original": "Giselle Rojas",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "me_01",
+      "nombre_normalizado": "matias_escalante",
+      "nombre_original": "Matias Escalante",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ee_01",
+      "nombre_normalizado": "elias_esveile",
+      "nombre_original": "Elias Esveile",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "zh_01",
+      "nombre_normalizado": "zoe_herrera",
+      "nombre_original": "Zoe Herrera",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "yf_01",
+      "nombre_normalizado": "yamila_fernandez",
+      "nombre_original": "Yamila Fernandez",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "zz_01",
+      "nombre_normalizado": "zaira_zuviria",
+      "nombre_original": "Zaira Zuviria",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "ca_01",
+      "nombre_normalizado": "camila_alves",
+      "nombre_original": "Camila Alves",
+      "imagenes_unicas": 0
+    },
+    {
+      "id_carpeta": "er_01",
+      "nombre_normalizado": "eliza_ramirez",
+      "nombre_original": "Eliza Ramirez",
+      "imagenes_unicas": 0
+    }
+  ],
+  "archivos": [
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\bp_01\\bp_01_01.png",
+      "id_carpeta": "bp_01",
+      "nombre": "Benjamin Palma",
+      "sha256_pixeles": "f3d8c5057db6234d41cf935394c1a0fc5b06d19a8a4d66b96810d91a5f3e79a7"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\bp_01\\bp_01_02.png",
+      "id_carpeta": "bp_01",
+      "nombre": "Benjamin Palma",
+      "sha256_pixeles": "670054047092d9f6cf2667713b1dfe8695f3c304e9c96ae6200deabca8f47011"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\bp_01\\bp_01_03.png",
+      "id_carpeta": "bp_01",
+      "nombre": "Benjamin Palma",
+      "sha256_pixeles": "099e58d8cca3144071dd0a63650b9b9508763cd2cc93b1cf04842fe001f0eb16"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\bp_01\\bp_01_04.png",
+      "id_carpeta": "bp_01",
+      "nombre": "Benjamin Palma",
+      "sha256_pixeles": "1817e196826724d173b355137cc5b6c80d654ff2f1f0cf108d1b7d75e5bb6633"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\bp_01\\bp_01_05.png",
+      "id_carpeta": "bp_01",
+      "nombre": "Benjamin Palma",
+      "sha256_pixeles": "fa9a41b444c730edcac3581558a63dde3a0badc4d6a1827dae8de8c674c58357"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\bp_01\\bp_01_06.png",
+      "id_carpeta": "bp_01",
+      "nombre": "Benjamin Palma",
+      "sha256_pixeles": "c234d63366b8fa7e0891945c23c45c55c3528ffb1015889c6dbb31ecacefc8e3"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\bp_01\\bp_01_07.png",
+      "id_carpeta": "bp_01",
+      "nombre": "Benjamin Palma",
+      "sha256_pixeles": "4473748fd301fc3ef7a2d9b3b542c1c8e0e9c26ca5f23d81b26a720e9f4a1b62"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\bp_01\\bp_01_08.png",
+      "id_carpeta": "bp_01",
+      "nombre": "Benjamin Palma",
+      "sha256_pixeles": "f554e378f31f35a4cfb0365e4f1214616edc25f7db4684d11d0b6dba5ead3eec"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\bp_01\\bp_01_09.png",
+      "id_carpeta": "bp_01",
+      "nombre": "Benjamin Palma",
+      "sha256_pixeles": "41e85e70fb0f55a4bc73085a543a32f3631acd63925e995b1350455fb31b47e3"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\bp_01\\bp_01_10.png",
+      "id_carpeta": "bp_01",
+      "nombre": "Benjamin Palma",
+      "sha256_pixeles": "2709d0c7de4099b169f60f541c21d180f1fd907efef94ee8665a32ba7d6eb715"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\cv_01\\cv_01_01.jpeg",
+      "id_carpeta": "cv_01",
+      "nombre": "Carlos Vasquez",
+      "sha256_pixeles": "025130028a0d281a65471e549f3ef6b826cf97947cf5146e8ab47ffab2c093da"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\cv_01\\cv_01_02.jpeg",
+      "id_carpeta": "cv_01",
+      "nombre": "Carlos Vasquez",
+      "sha256_pixeles": "d31f9b67d3441215d9e4a08ad282b9f14cbb154675fe83d46a3f4e29b523fb1c"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\cv_01\\cv_01_03.jpeg",
+      "id_carpeta": "cv_01",
+      "nombre": "Carlos Vasquez",
+      "sha256_pixeles": "e41c86cd2227356a45a4f3fcd8690f9a127d0c281b7db1e06b87133db625db95"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\cv_01\\cv_01_04.jpeg",
+      "id_carpeta": "cv_01",
+      "nombre": "Carlos Vasquez",
+      "sha256_pixeles": "b7afcb47646477fb22e26ee197f95535a5d19f9d02c6b7172e5cbb0aa459465f"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\cv_01\\cv_01_05.jpeg",
+      "id_carpeta": "cv_01",
+      "nombre": "Carlos Vasquez",
+      "sha256_pixeles": "3fa266965d63f275863912a2a81602b1e957e2c0df54c9f0022e7fc61460497a"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\cv_01\\cv_01_06.jpeg",
+      "id_carpeta": "cv_01",
+      "nombre": "Carlos Vasquez",
+      "sha256_pixeles": "f29368838b2d74813470d445c2f4bff22866d720675080a1cc3e21c1c0750858"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\cv_01\\cv_01_07.jpeg",
+      "id_carpeta": "cv_01",
+      "nombre": "Carlos Vasquez",
+      "sha256_pixeles": "4fe13f858d3b339400718436e7a184ef3dd0a5fdac026aa48da2f7e1d3ebf1e2"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\cv_01\\cv_01_08.jpeg",
+      "id_carpeta": "cv_01",
+      "nombre": "Carlos Vasquez",
+      "sha256_pixeles": "3d8813d21f3ed656b5c15847f6e178655d3a8e355e310668f70246f43e03ba40"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\cv_01\\cv_01_09.jpeg",
+      "id_carpeta": "cv_01",
+      "nombre": "Carlos Vasquez",
+      "sha256_pixeles": "1b2d49decd8a177162fb7046090165cf5f7145c9de35780b60f6d1636b58e724"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\cv_01\\cv_01_10.jpeg",
+      "id_carpeta": "cv_01",
+      "nombre": "Carlos Vasquez",
+      "sha256_pixeles": "5b47504489bb352f2154c157cd417a4bd1365e0513a96f3a04b7f7f7258a4cb5"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fq_01\\fq_01_01.jpeg",
+      "id_carpeta": "fq_01",
+      "nombre": "Francisco Quintana",
+      "sha256_pixeles": "c28a8234740771707b65e2de60c5dd82e2bc2c76bb86d19777bf3c3132e86ce3"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fq_01\\fq_01_02.jpeg",
+      "id_carpeta": "fq_01",
+      "nombre": "Francisco Quintana",
+      "sha256_pixeles": "95bb7dd436928c2ddff9306a5e6afcc4624513ecbf247b5f72b76a8f5d92e288"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fq_01\\fq_01_03.jpeg",
+      "id_carpeta": "fq_01",
+      "nombre": "Francisco Quintana",
+      "sha256_pixeles": "e0690a694bc408ea691106cfa68ebdd295913c3b33361cfa583799f9e816d07b"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fq_01\\fq_01_04.jpeg",
+      "id_carpeta": "fq_01",
+      "nombre": "Francisco Quintana",
+      "sha256_pixeles": "bfaa1e3913cfd3505523fd8405d39944434d437b97b187d97c55f7e2ae0f607f"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fq_01\\fq_01_05.jpeg",
+      "id_carpeta": "fq_01",
+      "nombre": "Francisco Quintana",
+      "sha256_pixeles": "02ccb1ec6b5fcc76adcf7158f552872367e4479e1d815d65518d38f3cdf34497"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fq_01\\fq_01_06.jpeg",
+      "id_carpeta": "fq_01",
+      "nombre": "Francisco Quintana",
+      "sha256_pixeles": "736ae0018cec30c4a12fff7ca4f6d9ce1a527a7178ec62d084eaf3228cbf3c36"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fq_01\\fq_01_07.jpeg",
+      "id_carpeta": "fq_01",
+      "nombre": "Francisco Quintana",
+      "sha256_pixeles": "c65eef8e7bce1860adf6b9121e60d013d39dd2f2a1e381351c0e3ef8b1d8dd8a"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fq_01\\fq_01_08.jpeg",
+      "id_carpeta": "fq_01",
+      "nombre": "Francisco Quintana",
+      "sha256_pixeles": "6ad8e7a5ad48b089b0bdb6f56535df83500fae3a36fb7ce9cd750b13f90027c2"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fq_01\\fq_01_09.jpeg",
+      "id_carpeta": "fq_01",
+      "nombre": "Francisco Quintana",
+      "sha256_pixeles": "e47197df1ed936cca523a90c7d77ced7f980b527592497ac56194e746f00a4e1"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fq_01\\fq_01_10.jpeg",
+      "id_carpeta": "fq_01",
+      "nombre": "Francisco Quintana",
+      "sha256_pixeles": "66b42095e478cc904662679bce0add5761e128a94f9a5ad007696a6b7698e317"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fv_01\\fv_01_01.jpeg",
+      "id_carpeta": "fv_01",
+      "nombre": "Fabian Verasay",
+      "sha256_pixeles": "db1d8730bcac0535547396de74a238c1bb2bccfe04ff3290f27fc5a8baef4b73"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fv_01\\fv_01_02.jpeg",
+      "id_carpeta": "fv_01",
+      "nombre": "Fabian Verasay",
+      "sha256_pixeles": "d067b916f7310e2cfa4bfa6a59003270bd1de862205cbcd96c71d22cf7f427f3"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fv_01\\fv_01_03.jpeg",
+      "id_carpeta": "fv_01",
+      "nombre": "Fabian Verasay",
+      "sha256_pixeles": "390d9558ec39ba6abdb8d4670a63bc58055dfd6c2091f4d37d2449f28852b1b8"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fv_01\\fv_01_04.jpeg",
+      "id_carpeta": "fv_01",
+      "nombre": "Fabian Verasay",
+      "sha256_pixeles": "68884f263721009f1d0df16d18db9bcd6d71778f6a14c5184b56ff67f4c571df"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fv_01\\fv_01_05.jpeg",
+      "id_carpeta": "fv_01",
+      "nombre": "Fabian Verasay",
+      "sha256_pixeles": "d31a16fa84de774479cc35fabc78b22037688fcd4be107a5bc9adf4404ade22e"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fv_01\\fv_01_06.jpeg",
+      "id_carpeta": "fv_01",
+      "nombre": "Fabian Verasay",
+      "sha256_pixeles": "d66d16277d4f200766c6715d25569908a7dc53f8a321b9a5f4c8369182a4b7bb"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fv_01\\fv_01_07.jpeg",
+      "id_carpeta": "fv_01",
+      "nombre": "Fabian Verasay",
+      "sha256_pixeles": "86a9b2c724df6f25f4e97501dad8adc0509859420b87fbe7d991c81f3d6c6d53"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fv_01\\fv_01_08.jpeg",
+      "id_carpeta": "fv_01",
+      "nombre": "Fabian Verasay",
+      "sha256_pixeles": "7ac31ec3868e56c6a1b4a276b1a574735d98b2ced0349af29d4b208427929283"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fv_01\\fv_01_09.jpeg",
+      "id_carpeta": "fv_01",
+      "nombre": "Fabian Verasay",
+      "sha256_pixeles": "340d60f46f5cc99a7f29e663eaba6a99e656b43b109eb3a30839e5eb7a81b9ad"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\fv_01\\fv_01_10.jpeg",
+      "id_carpeta": "fv_01",
+      "nombre": "Fabian Verasay",
+      "sha256_pixeles": "05458152e803df81f25d0bf7af952aef883ae1a9cbf82aaa1f19d806697e0387"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\ge_01\\ge_01_01.jpeg",
+      "id_carpeta": "ge_01",
+      "nombre": "Gustavo Espinoza",
+      "sha256_pixeles": "0ab74eea769856e90037c8eb219011aa9bc682420cac8e687af0af835f43e83b"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\ge_01\\ge_01_02.jpeg",
+      "id_carpeta": "ge_01",
+      "nombre": "Gustavo Espinoza",
+      "sha256_pixeles": "c3e1c6eade729d5953e6f2c6016c13c3e8a02b72fe2fcdd552f174ff8e02bd50"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\ge_01\\ge_01_03.jpeg",
+      "id_carpeta": "ge_01",
+      "nombre": "Gustavo Espinoza",
+      "sha256_pixeles": "80fec493da083e8ad3d0207d959e957795bfa8ef42e59d1c1e446d0ca93dc63e"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\ge_01\\ge_01_04.jpeg",
+      "id_carpeta": "ge_01",
+      "nombre": "Gustavo Espinoza",
+      "sha256_pixeles": "6342232a8199dcb15c6cf613add9a7a9c26ab039afef8addbee4b76480d777ba"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\ge_01\\ge_01_05.jpeg",
+      "id_carpeta": "ge_01",
+      "nombre": "Gustavo Espinoza",
+      "sha256_pixeles": "9718af4dba4574dfa08665f9e8e7ab5fc6bf5b8e9a0d495a252533ad564fe0cd"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\ge_01\\ge_01_06.jpeg",
+      "id_carpeta": "ge_01",
+      "nombre": "Gustavo Espinoza",
+      "sha256_pixeles": "79d445f2f7d36fe0ff1ddfe5059a50a5ca37c7d8602a5b82871f2ca9096258de"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\ge_01\\ge_01_07.jpeg",
+      "id_carpeta": "ge_01",
+      "nombre": "Gustavo Espinoza",
+      "sha256_pixeles": "9d4f11e7e8141123a50d411aaa7b97d79c556562a411365973fbda87de5f0a6f"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\ge_01\\ge_01_08.jpeg",
+      "id_carpeta": "ge_01",
+      "nombre": "Gustavo Espinoza",
+      "sha256_pixeles": "09fb562caf2c2f3b75b2dc4ad6172cba719bdbd2637edcf4d20935c02d03487f"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\ge_01\\ge_01_09.jpeg",
+      "id_carpeta": "ge_01",
+      "nombre": "Gustavo Espinoza",
+      "sha256_pixeles": "ac94c4a7fd14c723ee4787439d3ff86bffcaf57cafe3ccf32811c05f5d73a15b"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\ge_01\\ge_01_10.jpeg",
+      "id_carpeta": "ge_01",
+      "nombre": "Gustavo Espinoza",
+      "sha256_pixeles": "6f58d385d8940c7c5a677202f085c0447660c8a8c596d6c7222c4e9e230d5081"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\jm_01\\jm_01_01.jpg",
+      "id_carpeta": "jm_01",
+      "nombre": "Javier Montupil",
+      "sha256_pixeles": "0357e263c958c66e0877b4a437fcccbd3321d2cae14ca20f11a14e65d42b8a61"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\jm_01\\jm_01_02.jpg",
+      "id_carpeta": "jm_01",
+      "nombre": "Javier Montupil",
+      "sha256_pixeles": "4ac66024ac1b37f99b5f14b7faf78e5e6ae3e5d7496647965ced3bb59fd52b46"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\jm_01\\jm_01_03.jpg",
+      "id_carpeta": "jm_01",
+      "nombre": "Javier Montupil",
+      "sha256_pixeles": "439fe8cec3b0a719f2e0a58ec2925c18b61753ea08effdaa9fcbd7e23b8e72b1"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\jm_01\\jm_01_04.jpg",
+      "id_carpeta": "jm_01",
+      "nombre": "Javier Montupil",
+      "sha256_pixeles": "e9ed326d163010306332c89a13fefcd9903948c83e304da423c82add43cfee57"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\jm_01\\jm_01_05.jpg",
+      "id_carpeta": "jm_01",
+      "nombre": "Javier Montupil",
+      "sha256_pixeles": "b82ed3bfa386fdee822e2734daeab4829aeaa4e28c504dfc64257e53b401f5d7"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\jm_01\\jm_01_06.jpg",
+      "id_carpeta": "jm_01",
+      "nombre": "Javier Montupil",
+      "sha256_pixeles": "0fac455757fccab3677bc45b0dbee2b3130e560f2edbb5122480e0630fad3454"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\jm_01\\jm_01_07.jpg",
+      "id_carpeta": "jm_01",
+      "nombre": "Javier Montupil",
+      "sha256_pixeles": "ad79397c61436a23590de355d8b5751e34f1fbb8310f744a709bcef91381074f"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\jm_01\\jm_01_08.jpg",
+      "id_carpeta": "jm_01",
+      "nombre": "Javier Montupil",
+      "sha256_pixeles": "c0648decf5dbd3580e3ead54abec24b350c707d538872d14d2a1838a8efff04b"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\jm_01\\jm_01_09.jpg",
+      "id_carpeta": "jm_01",
+      "nombre": "Javier Montupil",
+      "sha256_pixeles": "99cfa30e70f6aefde128a5685a5e903ef6006aef8213e00d6c9162929da17d76"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\jm_01\\jm_01_10.jpg",
+      "id_carpeta": "jm_01",
+      "nombre": "Javier Montupil",
+      "sha256_pixeles": "4910ba46a4106bc252760f0ecf8a3f36c70c5bb1d196284ace86222c8961a445"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_01.jpg",
+      "id_carpeta": "la_01",
+      "nombre": "Luciano Alcantara",
+      "sha256_pixeles": "15b3f6d09e1c68084d411c9c8f09ae9296e01364e25fc7aa842965cfa7155f04"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_02.jpg",
+      "id_carpeta": "la_01",
+      "nombre": "Luciano Alcantara",
+      "sha256_pixeles": "dd91b5780c762cb5a277d493e689c709f4f1dd4eb8e062b6b4a012247a8509b8"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_03.jpg",
+      "id_carpeta": "la_01",
+      "nombre": "Luciano Alcantara",
+      "sha256_pixeles": "acf1afadd22e0aac5febd6f36186406754cd21ded762568a3bb6b2a01f793d5b"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_04.jpg",
+      "id_carpeta": "la_01",
+      "nombre": "Luciano Alcantara",
+      "sha256_pixeles": "c37a68dc1380ffe69d4d69a316bb19c11980ab4ccceb21560a24f8e4414edeb4"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_05.jpg",
+      "id_carpeta": "la_01",
+      "nombre": "Luciano Alcantara",
+      "sha256_pixeles": "7dc5761d51d6ac35fece0264bf4f482a2106c49b2840a12c941a7b9bda7dfad6"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_06.jpg",
+      "id_carpeta": "la_01",
+      "nombre": "Luciano Alcantara",
+      "sha256_pixeles": "f9818221282ff6d6bfd27c984b3bb3294ef5cca775da6c938bb3f9b959a07cfb"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_07.jpg",
+      "id_carpeta": "la_01",
+      "nombre": "Luciano Alcantara",
+      "sha256_pixeles": "3924a07bafa4ca33be1c016493655afa72eeded3f4865b03e10f4d5935e65aec"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_08.jpg",
+      "id_carpeta": "la_01",
+      "nombre": "Luciano Alcantara",
+      "sha256_pixeles": "30798ecf2e26023aa41d0cdd23d49bcfcb3c537990a54e51125b2c79c82c731b"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\la_01\\la_01_09.jpg",
+      "id_carpeta": "la_01",
+      "nombre": "Luciano Alcantara",
+      "sha256_pixeles": "3e93f77a1211784ca5cfde220fc733bc73c339eef551cf9d3f5f2008ed05c369"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_01.jpg",
+      "id_carpeta": "mf_01",
+      "nombre": "Matias Figueroa",
+      "sha256_pixeles": "878bb4ad4d3085dae002c651596e524a900ffaaf4531968c60b6112633b3b62e"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_02.jpg",
+      "id_carpeta": "mf_01",
+      "nombre": "Matias Figueroa",
+      "sha256_pixeles": "90f18eef690ebf8486e7356a84104db7d71c496eecb34e891e0ab74ac35d8d1e"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_03.jpg",
+      "id_carpeta": "mf_01",
+      "nombre": "Matias Figueroa",
+      "sha256_pixeles": "da35e26da94a87c5db711d5422664f6dbbb024d4778a21048a62c4270106d0b6"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_05.jpg",
+      "id_carpeta": "mf_01",
+      "nombre": "Matias Figueroa",
+      "sha256_pixeles": "327a9871470f64e9bcaa0e3b83a2f78326ac6cb61ef539e6acb0405001987d9d"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_06.jpg",
+      "id_carpeta": "mf_01",
+      "nombre": "Matias Figueroa",
+      "sha256_pixeles": "1e6783c6cf60e4caeb8472a00d57fa06cc3290f26442e28bf516639259548e74"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_07.jpg",
+      "id_carpeta": "mf_01",
+      "nombre": "Matias Figueroa",
+      "sha256_pixeles": "1fe20e499baf4fed181eae480aa53488ce9bbe04eef2942ada4df466e3498c87"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_08.jpg",
+      "id_carpeta": "mf_01",
+      "nombre": "Matias Figueroa",
+      "sha256_pixeles": "fdc6ba5c069243904fa1c1be98a3e9b16674d0485f6358c7ebc3ce13f465672d"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_09.jpg",
+      "id_carpeta": "mf_01",
+      "nombre": "Matias Figueroa",
+      "sha256_pixeles": "e8445366bb06f68ebfb0fe4456ab5a3de460c9de0ec7c37f7006721441b0680e"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\mf_01\\mf_01_10.jpg",
+      "id_carpeta": "mf_01",
+      "nombre": "Matias Figueroa",
+      "sha256_pixeles": "76074a926560c188ff65327135285388bb6f666360e6ca602c9a2a47f7db8615"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\nc_01\\nc_01_01.jpg",
+      "id_carpeta": "nc_01",
+      "nombre": "Nicolas Cuevas",
+      "sha256_pixeles": "2365e0b325106e3249eaa807b073023cfa45d1b0faa20822852cf51407c8a0d9"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\nc_01\\nc_01_02.jpg",
+      "id_carpeta": "nc_01",
+      "nombre": "Nicolas Cuevas",
+      "sha256_pixeles": "fb0f611bc2e81ea179426692402413c96d9c54ad03aa29aa2375e45e1369413e"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\nc_01\\nc_01_03.jpg",
+      "id_carpeta": "nc_01",
+      "nombre": "Nicolas Cuevas",
+      "sha256_pixeles": "7f1926b23b6ff7d8f19acaf32d033c07c56fce5b4826dbed06235756255d174d"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\nc_01\\nc_01_04.jpg",
+      "id_carpeta": "nc_01",
+      "nombre": "Nicolas Cuevas",
+      "sha256_pixeles": "de2831cb3317c1e1d8a53c8fac515b70433f026908ea67668a80c990d3cc11d0"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\nc_01\\nc_01_05.jpg",
+      "id_carpeta": "nc_01",
+      "nombre": "Nicolas Cuevas",
+      "sha256_pixeles": "199c78136b6074c61d548e58526a1a491fd5435afc615539c8fff975022afcde"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\nc_01\\nc_01_06.jpg",
+      "id_carpeta": "nc_01",
+      "nombre": "Nicolas Cuevas",
+      "sha256_pixeles": "0a40c3f54c98e323c49313110214a8618750445a9ad26fd6aa022b2dfa5d5e3d"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\nc_01\\nc_01_07.jpg",
+      "id_carpeta": "nc_01",
+      "nombre": "Nicolas Cuevas",
+      "sha256_pixeles": "09766e2d78b7da0f53a6a4e1427147e798858ef0eb3d8b88ae352172415ea676"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\nc_01\\nc_01_08.jpg",
+      "id_carpeta": "nc_01",
+      "nombre": "Nicolas Cuevas",
+      "sha256_pixeles": "f48633bc82085370b6d0d9d40bd16f36334cc1d82f886bcbdbcb3157eb0f8028"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\nc_01\\nc_01_09.jpg",
+      "id_carpeta": "nc_01",
+      "nombre": "Nicolas Cuevas",
+      "sha256_pixeles": "7dbe1a8157483cbd0480eb721c750ea80888ea7340fa5c1cb29642da46d9714c"
+    },
+    {
+      "ruta": "C:\\Users\\gandr\\Downloads\\entrega_etapa_3_app\\proyecto-dataset-vision\\data\\images\\nc_01\\nc_01_10.jpg",
+      "id_carpeta": "nc_01",
+      "nombre": "Nicolas Cuevas",
+      "sha256_pixeles": "a221825ea4c2d45cb19a660dbf3eacf333a145e32ff9ee4cc66224435963b048"
+    }
+  ],
+  "duplicados": [],
+  "total_personas": 37,
+  "total_imagenes_unicas": 88,
+  "procedencia": {
+    "rama": "integracion",
+    "commit": "bf2fb2bfd336029eaa2bb1e5eccf61f70fdb5aaf",
+    "metadatos_modificados": false,
+    "estado_metadatos": "",
+    "csv_sha256": "231e98de893e31f1daa476065fbbe1acc7757bd727363af0531960ad812a44e8",
+    "puntero_dvc": "outs:\n- md5: 2d8888f63e6d3a481a73cf5cfe8f43ce.dir\n  size: 94262690\n  nfiles: 300\n  hash: md5\n  path: images\n"
+  }
+}

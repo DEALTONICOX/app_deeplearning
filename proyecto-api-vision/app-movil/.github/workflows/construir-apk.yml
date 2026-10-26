@@ -1,0 +1,52 @@
+# Compila el APK de la app en la nube de GitHub (no requiere Android Studio).
+# Uso: sube el contenido de la carpeta app-movil como raíz de un repositorio de GitHub;
+# el APK queda en Actions > (última ejecución) > Artifacts > app-reconocimiento-duoc-apk.
+name: Construir APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Copiar la app web al proyecto Android
+        run: npx cap sync android
+
+      - name: Asegurar la plataforma de Android 36
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-36" "build-tools;36.0.0"
+
+      - name: Compilar el APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --no-daemon
+
+      - name: Publicar el APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-reconocimiento-duoc-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
